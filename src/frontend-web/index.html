@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asistente Virtual - Planificador de Viajes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Estilo base */
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #FFDEE9, #B5FFFC);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      background-color: #FF7F50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    /* Contenedor principal */
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .intro-text {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 800px;
+      color: #444;
+    }
+
+    .button-start {
+      background-color: #FF7F50;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-start:hover {
+      background-color: #FF6347;
+      transform: scale(1.05);
+    }
+
+    /* Estilo del Webchat */
+    #webchat {
+      width: 100%;
+      height: 500px;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+    /* Responsividad */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .intro-text {
+        font-size: 1rem;
+      }
+
+      .button-start {
+        font-size: 1rem;
+        padding: 12px 25px;
+      }
+
+      #webchat {
+        height: 400px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .button-start {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+
+      #webchat {
+        height: 350px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Web de Viajes</h1>
+  </header>
+
+  <div class="container">
+    <div class="intro-text">
+      <p>¡Bienvenido! Soy tu asistente virtual y puedo ayudarte a planificar tu próximo viaje. Cuéntame tus preferencias y te recomendaré destinos y actividades ideales.</p>
+    </div>
+
+    <button class="button-start" onclick="window.botpress.open()">¡Empezar ahora!</button>
+
+    <!-- Contenedor para el chat -->
+    <div id="webchat"></div>
+  </div>
+
+  <!-- Botpress Webchat -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+  <script>
+    window.botpress.on("webchat:ready", () => {
+      window.botpress.open();
+    });
+    window.botpress.init({
+      "botId": "9f472344-9c0d-40be-9fff-c3339d67a4c1",
+      "configuration": {
+        "website": {},
+        "email": {},
+        "phone": {},
+        "termsOfService": {},
+        "privacyPolicy": {},
+        "color": "#FF7F50",
+        "variant": "solid",
+        "themeMode": "light",
+        "fontFamily": "inter",
+        "radius": 1
+      },
+      "clientId": "42883c3e-397b-4891-9f21-f88c10949060",
+      "selector": "#webchat"
+    });
+  </script>
+
+</body>
+</html>
