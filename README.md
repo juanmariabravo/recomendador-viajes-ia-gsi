@@ -3,10 +3,30 @@
 - Fecha de inicio del proyecto: 24/02/2025
 - Gestión de Sistemas de Información (GSI) - Escuela Superior de Informática - Universidad de Castilla-La Mancha
 
-## Contenidos
-1. [Definición del Proyecto](docs/definicion_proyecto.md)
-2. [LabBook](LabBook.md)
+## Índice
+### 1. [Manual de Usuario](#manual-de-usuario)
+### 2. [Estructura de Directorios del Repositorio GitHub](#estructura-de-directorios-del-repositorio-github)
 
+## Otros Contenidos de Interés
+### 1. [Definición del Proyecto](docs/definicion_proyecto.md)
+### 2. [LabBook.md](LabBook.md) o en PDF [LabBook.pdf](LabBook_Bravo.pdf)
+
+
+## 📖 **Manual de Usuario**
+Para utilizar el sistema recomendador de viajes y destinos turísticos con chatbot interactivo, sigue estos pasos:
+
+1. Accede a la [página principal](src/frontend/index.html) del sistema.
+2. Interactúa con el chatbot respondiendo a sus preguntas.
+Actualmente, este proyecto está **en desarrollo**. Puede ver el estado actual del proyecto en el [LabBook](LabBook.md).
+
+Si desea visualizar el aspecto de la web, siga los siguientes pasos:
+1. Descargue el repositorio en formato ZIP o clone el repositorio en su máquina local.
+2. Abra el archivo `index.html` ubicado en la carpeta `src/frontend/` con su navegador web favorito. Como se muestra a continuación:
+
+<img src="./assets/how-to-open-html-locally.png" alt="Cómo abrir un archivo HTML localmente" width="100%"/>
+
+<img src="./assets/web-20-marzo.png" alt="Captura de pantalla de la web" width="100%"/>
+<img src="./assets/web-20-marzo-2.png" alt="Captura de pantalla de la web" width="100%"/>
 
 ## 📁 **Estructura de Directorios del Repositorio GitHub**
 
@@ -40,9 +60,7 @@
 └── LabBook.md                   # Registro de avances, problemas y soluciones (LabBook)
 ```
 
----
-
-## 📌 **Explicación Breve:**
+### 📌 **Explicación Breve:**
 - **`docs/`**: Documentación inicial para especificar requisitos, definir el alcance y registrar referencias útiles.  
 - **`design/`**: Lugar para bocetos y prototipos UI/UX, así como ideas para el diseño de la interfaz.  
 - **`src/`**: Será el espacio para el código fuente del frontend y, en caso necesario, del backend.  

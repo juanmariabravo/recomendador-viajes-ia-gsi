@@ -57,7 +57,12 @@ Este proyecto surge de la necesidad de simplificar y personalizar la búsqueda d
 ```
 ```
 🗓️ Fecha: 20/03/2025
-🔹 Actividades realizadas: Creación del repositorio de GitHub y estructuraión de directorios. Creación del documento de [Definición del Proyecto](../docs/definicion_proyecto.md), [LabBook](../LabBook.md) y [README.md](README.md).
+🔹 Actividades realizadas: 
+- Creación del repositorio de GitHub y estructuraión de directorios. 
+- Creación del documento de [Definición del Proyecto](../docs/definicion_proyecto.md), 
+- [LabBook](../LabBook.md) y
+- [README.md](README.md).
+🔹No ha habido dificultades relevantes.
 
 ---
 
