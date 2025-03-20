@@ -4,8 +4,8 @@
 - Gestión de Sistemas de Información (GSI) - Escuela Superior de Informática - Universidad de Castilla-La Mancha
 
 ## Índice
-### 1. [Manual de Usuario](https://github.com/juanmariabravo/recomendador-viajes-ia-gsi/edit/master/README.md#-manual-de-usuario)
-### 2. [Estructura de Directorios del Repositorio GitHub](https://github.com/juanmariabravo/recomendador-viajes-ia-gsi/edit/master/README.md#-estructura-de-directorios-del-repositorio-github)
+### 1. [Manual de Usuario](#-manual-de-usuario)
+### 2. [Estructura de Directorios del Repositorio GitHub](#-estructura-de-directorios-del-repositorio-github)
 
 ## Otros Contenidos de Interés
 ### 1. [Definición del Proyecto](docs/definicion_proyecto.md)
