@@ -1,2 +1,422 @@
-/* De momento, por simplicidad, la definición de estilos se ha hecho en el archivo index.html */
-/* En el futuro, todos los estilos se definirán en este archivo */
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .logo h1 span {
+    color: #2AABDE;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+  }
+  
+  .hero-image i {
+    font-size: 48px;
+    color: #aaa;
+  }
+  
+  .cta-button {
+    background-color: #F8A055;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #F69042;
+  }
+  
+  /* Destinos Populares */
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .destinations {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .destination-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card-image {
+    height: 180px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-image i {
+    font-size: 36px;
+    color: #aaa;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .card-price {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .card-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #2AABDE;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .card-tag i {
+    margin-right: 5px;
+  }
+  
+  .button-secondary {
+    background-color: #F8A055;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .button-secondary:hover {
+    background-color: #F69042;
+  }
+  
+  /* Chatbot */
+  .chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #2AABDE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  
+  .chat-button i {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .chat-window {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+  }
+  
+  .chat-header {
+    padding: 15px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-header h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .chat-close {
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 15px;
+    max-width: 80%;
+  }
+  
+  .bot-message {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border-top-left-radius: 5px;
+    align-self: flex-start;
+  }
+  
+  .user-message {
+    background-color: #2AABDE;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border-top-right-radius: 5px;
+    margin-left: auto;
+  }
+  
+  .chat-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .chat-option {
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .chat-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .chat-option.selected {
+    background-color: #2AABDE;
+    color: white;
+  }
+  
+  .chat-input {
+    padding: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .chat-input button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #2AABDE;
+    font-size: 20px;
+  }
+  
+  /* Destinos Para Ti */
+  .recommendations {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-button.active {
+    background-color: #2AABDE;
+    color: white;
+  }
+  
+  .filter-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Detalle de destino */
+  .destination-detail {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .detail-image {
+    height: 200px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+  }
+  
+  .detail-header {
+    margin-bottom: 15px;
+  }
+  
+  .detail-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .detail-subtitle {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .detail-price {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .detail-section {
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+  }
+  
+  .detail-section h3 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detail-section i {
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .destinations, .filter-results {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .chat-window {
+      width: 300px;
+      height: 400px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .destinations, .filter-results {
+      grid-template-columns: 1fr;
+    }
+    
+    .chat-window {
+      width: calc(100% - 40px);
+      right: 20px;
+    }
+  }

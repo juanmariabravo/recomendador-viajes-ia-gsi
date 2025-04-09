@@ -3,13 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>viAjeros - Planificador de Viajes</title>
+  <title>Destinos - viAjeros</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <!-- Botpress Webchat -->
-<script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
-
+  <link rel="stylesheet" href="destinos.css">
 </head>
 <body>
   <header>
@@ -19,8 +17,8 @@
           <h1><span>vi</span>Ajeros</h1>
         </div>
         <div class="nav-links">
-          <a href="index.html" class="active">Inicio</a>
-          <a href="destinos.html">Destinos</a>
+          <a href="index.html">Inicio</a>
+          <a href="destinos.html" class="active">Destinos</a>
           <a href="chatbot.html">Chatbot</a>
         </div>
       </nav>
@@ -28,22 +26,61 @@
   </header>
   
   <main class="container">
-    <section class="hero">
-      <div class="hero-image">
-        <i class="fas fa-image"></i>
-      </div>
-      <button class="cta-button" onclick="window.location.href='chatbot.html'">PLANIFICA TU VIAJE CON NUESTRO CHATBOT</button>
+    <section class="destinos-header">
+      <h1>Explora nuestros destinos</h1>
+      <p>Encuentra el destino perfecto para tu próxima aventura</p>
     </section>
     
-    <section>
-      <h2 class="section-title">Destinos populares</h2>
-      <div class="destinations">
+    <section class="filter-section">
+      <div class="filter-container">
+        <div class="filter-group">
+          <label>Tipo de destino</label>
+          <div class="filter-options">
+            <button class="filter-tag active">Todos</button>
+            <button class="filter-tag"><i class="fas fa-umbrella-beach"></i> Playa</button>
+            <button class="filter-tag"><i class="fas fa-mountain"></i> Montaña</button>
+            <button class="filter-tag"><i class="fas fa-city"></i> Ciudad</button>
+          </div>
+        </div>
+        
+        <div class="filter-group">
+          <label>Presupuesto</label>
+          <div class="filter-options">
+            <button class="filter-tag">< €1000</button>
+            <button class="filter-tag">€1000 - €2000</button>
+            <button class="filter-tag">> €2000</button>
+          </div>
+        </div>
+        
+        <div class="filter-group">
+          <label>Valoración</label>
+          <div class="filter-options">
+            <button class="filter-tag">★★★★★</button>
+            <button class="filter-tag">★★★★☆</button>
+            <button class="filter-tag">★★★☆☆</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="search-container">
+        <input type="text" placeholder="Buscar destino..." class="search-input">
+        <button class="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </section>
+    
+    <section class="destinations-results">
+      <h2 class="section-title">Todos los destinos</h2>
+      
+      <div class="destinations-grid">
         <div class="destination-card">
           <div class="card-image">
             <i class="fas fa-image"></i>
           </div>
           <div class="card-content">
             <h3 class="card-title">Barcelona</h3>
+            <div class="card-rating">
+              <span>★★★★★</span>
+            </div>
             <p class="card-price">Precio €2000</p>
             <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
             <div>
@@ -58,6 +95,9 @@
           </div>
           <div class="card-content">
             <h3 class="card-title">Madrid</h3>
+            <div class="card-rating">
+              <span>★★★★☆</span>
+            </div>
             <p class="card-price">Precio €1800</p>
             <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
             <div>
@@ -72,6 +112,9 @@
           </div>
           <div class="card-content">
             <h3 class="card-title">Valencia</h3>
+            <div class="card-rating">
+              <span>★★★★★</span>
+            </div>
             <p class="card-price">Precio €2200</p>
             <span class="card-tag"><i class="fas fa-umbrella-beach"></i> Playa</span>
             <div>
@@ -79,28 +122,18 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="recommendations">
-      <h2 class="section-title">Destinos para ti</h2>
-      <div class="filters">
-        <button class="filter-button active">Precio</button>
-        <button class="filter-button">Clima</button>
-        <button class="filter-button">Intereses</button>
-      </div>
-      
-      <div class="filter-results">
+        
         <div class="destination-card">
           <div class="card-image">
             <i class="fas fa-image"></i>
           </div>
           <div class="card-content">
             <h3 class="card-title">Granada</h3>
-            <div>
+            <div class="card-rating">
               <span>★★★★★</span>
             </div>
             <p class="card-price">Precio €1500</p>
+            <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
             <div>
               <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=granada'">Ver detalles</button>
             </div>
@@ -113,16 +146,48 @@
           </div>
           <div class="card-content">
             <h3 class="card-title">Sevilla</h3>
+            <div class="card-rating">
+              <span>★★★★☆</span>
+            </div>
             <p class="card-price">Precio €2000</p>
+            <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
             <div>
               <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sevilla'">Ver detalles</button>
             </div>
           </div>
         </div>
+        
+        <div class="destination-card">
+          <div class="card-image">
+            <i class="fas fa-image"></i>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Málaga</h3>
+            <div class="card-rating">
+              <span>★★★★★</span>
+            </div>
+            <p class="card-price">Precio €1900</p>
+            <span class="card-tag"><i class="fas fa-umbrella-beach"></i> Playa</span>
+            <div>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=malaga'">Ver detalles</button>
+            </div>
+          </div>
+        </div>
       </div>
       
-      <div style="text-align: center; margin-top: 20px;">
-        <button class="button-secondary" onclick="window.location.href='chatbot.html'">Nueva consulta con el chatbot</button>
+      <div class="pagination">
+        <button class="pagination-button active">1</button>
+        <button class="pagination-button">2</button>
+        <button class="pagination-button">3</button>
+        <button class="pagination-button"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+    
+    <section class="need-help">
+      <div class="need-help-content">
+        <h2>¿Necesitas ayuda para decidir?</h2>
+        <p>Nuestro chatbot puede ayudarte a encontrar el destino perfecto según tus preferencias</p>
+        <button class="cta-button" onclick="window.location.href='chatbot.html'">Consulta con nuestro chatbot</button>
       </div>
     </section>
   </main>
@@ -192,5 +257,9 @@
       <button><i class="fas fa-paper-plane"></i></button>
     </div>
   </div>
+  
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/destinos.js"></script>
 </body>
 </html>
