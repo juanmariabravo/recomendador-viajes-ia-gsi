@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detalle de Destino - vIAjeros</title>
+  <title>Detalle de Destino - Sagrada Familia</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="detalle-destino.css">
+  <script src="main.js"></script>
+  <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
 </head>
 <body>
   <header>
@@ -25,38 +28,20 @@
   </header>
   
   <main class="container">
-    <div class="breadcrumbs">
-      <a href="index.html">Inicio</a> &gt; 
-      <a href="destinos.html">Destinos</a> &gt; 
-      <span id="destino-nombre">Barcelona</span>
-    </div>
-    
     <section class="destination-detail">
-      <div class="destination-gallery">
-        <div class="main-image">
-          <i class="fas fa-image"></i>
-        </div>
-        <div class="thumbnail-gallery">
-          <div class="thumbnail active"><i class="fas fa-image"></i></div>
-          <div class="thumbnail"><i class="fas fa-image"></i></div>
-          <div class="thumbnail"><i class="fas fa-image"></i></div>
-          <div class="thumbnail"><i class="fas fa-image"></i></div>
-        </div>
-      </div>
       
       <div class="destination-info">
         <div class="destination-header">
           <div>
-            <h1 id="destino-titulo">Barcelona</h1>
-            <p class="destination-location">España</p>
+            <h1 id="destino-titulo">Sagrada Familia</h1>
+            <p class="destination-location">Barcelona, España</p>
             <div class="destination-rating">
-              <span>★★★★★</span> <span class="reviews-count">(120 opiniones)</span>
+              <span>★★★★★</span> <span class="reviews-count">(1,245 opiniones)</span>
             </div>
           </div>
           <div class="destination-price">
-            <span class="price-label">Precio promedio</span>
-            <span class="price-value">€2.000</span>
-            <button class="cta-button">Reservar ahora</button>
+            <span class="price-label">Precio:</span>
+            <span class="price-value"><strong>25 €</strong></span>
           </div>
         </div>
         
@@ -65,75 +50,34 @@
           <button class="tab-button" data-tab="actividades">Actividades</button>
           <button class="tab-button" data-tab="comentarios">Comentarios</button>
           <button class="tab-button" data-tab="ubicacion">Ubicación</button>
+          <button class="cta-button">Reservar ahora</button>
         </div>
         
         <div class="tab-content active" id="descripcion">
           <h2>Descripción</h2>
-          <p>Barcelona es una ciudad cosmopolita situada en la costa mediterránea de España. Es la capital de Cataluña y una de las ciudades más visitadas de Europa gracias a su rica historia, impresionante arquitectura y vibrante cultura.</p>
-          <p>Famosa por las obras arquitectónicas de Antoni Gaudí como la Sagrada Familia y el Parque Güell, Barcelona combina perfectamente lo moderno con lo histórico, ofreciendo a sus visitantes una experiencia única llena de arte, gastronomía y entretenimiento.</p>
-          
-          <div class="features">
-            <div class="feature">
-              <i class="fas fa-sun"></i>
-              <span>Clima mediterráneo</span>
-            </div>
-            <div class="feature">
-              <i class="fas fa-language"></i>
-              <span>Castellano/Catalán</span>
-            </div>
-            <div class="feature">
-              <i class="fas fa-euro-sign"></i>
-              <span>Euro (€)</span>
-            </div>
-            <div class="feature">
-              <i class="fas fa-clock"></i>
-              <span>GMT+1</span>
-            </div>
-          </div>
+          <p>La Sagrada Familia es una de las obras maestras del arquitecto Antoni Gaudí y uno de los monumentos más emblemáticos de Barcelona. Esta basílica, en construcción desde 1882, combina elementos del modernismo catalán con un diseño único que la convierte en un destino imprescindible para los visitantes de la ciudad.</p>
+          <p>Con sus impresionantes fachadas, torres y detalles arquitectónicos, la Sagrada Familia es un símbolo de creatividad y espiritualidad. Su interior está lleno de luz y colores gracias a sus vitrales, creando una atmósfera mágica.</p>
         </div>
         
         <div class="tab-content" id="actividades">
           <h2>Actividades</h2>
           <div class="activities-list">
             <div class="activity-card">
-              <div class="activity-image">
-                <i class="fas fa-image"></i>
+              <div class="activity-image" style="background-color: #ddd;">
+                <i class="fas fa-church"></i>
               </div>
               <div class="activity-content">
-                <h3>Visita a la Sagrada Familia</h3>
-                <p>Explora la impresionante obra maestra inacabada de Gaudí, un símbolo de Barcelona.</p>
-                <div class="activity-details">
-                  <span><i class="fas fa-clock"></i> 2-3 horas</span>
-                  <span><i class="fas fa-euro-sign"></i> Desde €25</span>
-                </div>
+                <h3>Visita guiada</h3>
+                <p>Descubre la historia y los secretos de la Sagrada Familia con un guía experto.</p>
               </div>
             </div>
-            
             <div class="activity-card">
-              <div class="activity-image">
-                <i class="fas fa-image"></i>
+              <div class="activity-image" style="background-color: #ddd;">
+                <i class="fas fa-binoculars"></i>
               </div>
               <div class="activity-content">
-                <h3>Recorrido por el Barrio Gótico</h3>
-                <p>Pasea por las calles medievales del corazón histórico de la ciudad.</p>
-                <div class="activity-details">
-                  <span><i class="fas fa-clock"></i> 3 horas</span>
-                  <span><i class="fas fa-euro-sign"></i> Desde €15</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="activity-card">
-              <div class="activity-image">
-                <i class="fas fa-image"></i>
-              </div>
-              <div class="activity-content">
-                <h3>Excursión a Montserrat</h3>
-                <p>Visita la montaña sagrada de Cataluña con su famoso monasterio.</p>
-                <div class="activity-details">
-                  <span><i class="fas fa-clock"></i> Todo el día</span>
-                  <span><i class="fas fa-euro-sign"></i> Desde €60</span>
-                </div>
+                <h3>Subida a las torres</h3>
+                <p>Disfruta de vistas panorámicas de Barcelona desde las torres de la basílica.</p>
               </div>
             </div>
           </div>
@@ -143,43 +87,20 @@
           <h2>Comentarios</h2>
           <div class="reviews-container">
             <div class="review">
-              <div class="review-header">
-                <div class="reviewer-info">
-                  <span class="reviewer-name">María L.</span>
-                  <span class="review-date">20/03/2025</span>
-                </div>
-                <div class="review-rating">
-                  <span>★★★★★</span>
-                </div>
-              </div>
-              <p class="review-text">¡Barcelona es increíble! La arquitectura, la comida, la gente... todo fue perfecto. Definitivamente volveré.</p>
+              <p><strong>María López:</strong> "Una experiencia inolvidable. La arquitectura es impresionante y las vistas desde las torres son espectaculares."</p>
+              <span class="review-date">Publicado el 10 de abril de 2025</span>
             </div>
-            
             <div class="review">
-              <div class="review-header">
-                <div class="reviewer-info">
-                  <span class="reviewer-name">Carlos M.</span>
-                  <span class="review-date">15/02/2025</span>
-                </div>
-                <div class="review-rating">
-                  <span>★★★★☆</span>
-                </div>
-              </div>
-              <p class="review-text">Muy buena experiencia en general. Las Ramblas están un poco masificadas pero los barrios más alejados del centro son una maravilla.</p>
+              <p><strong>Carlos García:</strong> "Un lugar mágico lleno de historia y arte. Recomiendo la visita guiada para entender todos los detalles."</p>
+              <span class="review-date">Publicado el 8 de abril de 2025</span>
             </div>
-            
-            <div class="review">
-              <div class="review-header">
-                <div class="reviewer-info">
-                  <span class="reviewer-name">Ana P.</span>
-                  <span class="review-date">05/01/2025</span>
-                </div>
-                <div class="review-rating">
-                  <span>★★★★★</span>
-                </div>
-              </div>
-              <p class="review-text">La Sagrada Familia es impresionante, merece la pena reservar con antelación. El Park Güell también es una visita obligada.</p>
-            </div>
+          </div>
+          <div class="add-review">
+            <h3>Deja tu comentario</h3>
+            <form id="review-form">
+              <textarea id="review-text" placeholder="Escribe tu comentario aquí..." required></textarea>
+              <button type="submit" class="cta-button">Enviar</button>
+            </form>
           </div>
         </div>
         
@@ -188,34 +109,24 @@
           <div class="map-container">
             <div class="map-placeholder">
               <i class="fas fa-map-marked-alt"></i>
-              <span>Mapa de Barcelona</span>
+              <span>Mapa de ubicación</span>
             </div>
           </div>
           <div class="location-details">
-            <div class="location-info">
-              <h3>Cómo llegar</h3>
-              <ul>
-                <li><i class="fas fa-plane"></i> Aeropuerto Internacional El Prat (BCN)</li>
-                <li><i class="fas fa-train"></i> Estación de Sants (trenes de alta velocidad)</li>
-                <li><i class="fas fa-ship"></i> Puerto de Barcelona (cruceros)</li>
-              </ul>
-            </div>
-            <div class="location-info">
-              <h3>Transporte local</h3>
-              <ul>
-                <li><i class="fas fa-subway"></i> Metro (12 líneas)</li>
-                <li><i class="fas fa-bus"></i> Red extensa de autobuses</li>
-                <li><i class="fas fa-bicycle"></i> Sistema de bicicletas compartidas</li>
-              </ul>
-            </div>
+            <p><strong>Dirección:</strong> Carrer de Mallorca, 401, 08013 Barcelona, España</p>
+            <p><strong>Horario:</strong> Abierto todos los días de 9:00 a 20:00</p>
           </div>
         </div>
       </div>
     </section>
-    
-    <section class="related-destinations">
-      <h2 class="section-title">Destinos similares</h2>
-      <div class="destinations">
-        <div class="destination-card">
-          <div class="card-image">
-            <i
+  </main>
+
+  <footer>
+    <a href="privacy-terms.html">Política de Privacidad</a> | <a href="privacy-terms.html">Términos de Servicio</a>
+    <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/destinos.js"></script>
+  <script src="js/detalle-destino.js"></script>
+</body>
+</html>
