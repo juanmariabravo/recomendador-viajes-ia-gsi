@@ -3,20 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>viAjeros - Planificador de Viajes</title>
+  <title>vIAjeros - Tu Planificador de Viajes</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <!-- Botpress Webchat -->
-<script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
-
+  <script src="main.js"></script>
 </head>
 <body>
   <header>
     <div class="container">
       <nav>
         <div class="logo">
-          <h1><span>vi</span>Ajeros</h1>
+          <h1><span>vI</span>Ajeros</h1>
         </div>
         <div class="nav-links">
           <a href="index.html" class="active">Inicio</a>
@@ -28,169 +26,96 @@
   </header>
   
   <main class="container">
-    <section class="hero">
-      <div class="hero-image">
-        <i class="fas fa-image"></i>
+    <section class="hero" style="text-align: center;">
+      <div class="hero-image" style="background-image: url('https://imagenmiami.com/wp-content/uploads/2023/05/ChatGPT-4_Expedia_Cover.gif'); background-size: cover; background-position: center;">
       </div>
-      <button class="cta-button" onclick="window.location.href='chatbot.html'">PLANIFICA TU VIAJE CON NUESTRO CHATBOT</button>
+      <button class="cta-button" onclick="window.location.href='chatbot.html'">PLANIFICA AHORA TU VIAJE</button>
     </section>
-    
     <section>
       <h2 class="section-title">Destinos populares</h2>
       <div class="destinations">
         <div class="destination-card">
-          <div class="card-image">
-            <i class="fas fa-image"></i>
-          </div>
+            <div class="card-image" style="background-image: url('https://www.rutaspirineos.org/imagenes/zonas/parc-national-des-pyrenees.jpg'); background-size: cover; background-position: center;">
+            </div>
           <div class="card-content">
-            <h3 class="card-title">Barcelona</h3>
+            <h3 class="card-title">Parque Nacional de los Pirineos</h3>
             <p class="card-price">Precio €2000</p>
             <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
             <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=barcelona'">Ver detalles</button>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=pirineos'">Ver detalles</button>
             </div>
           </div>
         </div>
-        
+
         <div class="destination-card">
-          <div class="card-image">
-            <i class="fas fa-image"></i>
-          </div>
+            <div class="card-image" style="background-image: url('https://znaki.fm/static/content/thumbs/1200x900/9/1c/desgdx---c4x3x50px50p--597c1d6c092c7c39502def503927d1c9.jpg'); background-size: cover; background-position: center;">
+            </div>
           <div class="card-content">
-            <h3 class="card-title">Madrid</h3>
+            <h3 class="card-title">Palacio Real de Madrid</h3>
             <p class="card-price">Precio €1800</p>
             <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
             <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=madrid'">Ver detalles</button>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=palacio'">Ver detalles</button>
             </div>
           </div>
         </div>
-        
+
         <div class="destination-card">
-          <div class="card-image">
-            <i class="fas fa-image"></i>
-          </div>
+            <div class="card-image" style="background-image: url('https://cdn-imgix.headout.com/mircobrands-content/image/b299bd25f75c1e299c877fed458576fa-Sagrada%20Familia%20-%20Facades.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces'); background-size: cover; background-position: center;">
+            </div>
           <div class="card-content">
-            <h3 class="card-title">Valencia</h3>
-            <p class="card-price">Precio €2200</p>
+            <h3 class="card-title">La Sagrada Familia</h3>
+            <p class="card-price">Precio €1500</p>
+            <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
+            <div>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sagrada-familia'">Ver detalles</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+            <div class="card-image" style="background-image: url('https://www.8directo.com/uploads/s1/26/33/16/9/fotonoticia-20230428153200-1920.jpeg'); background-size: cover; background-position: center;">
+            </div>
+          <div class="card-content">
+            <h3 class="card-title">Playa de Bolonia</h3>
+            <p class="card-price">Precio €1200</p>
             <span class="card-tag"><i class="fas fa-umbrella-beach"></i> Playa</span>
             <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=valencia'">Ver detalles</button>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=bolonia'">Ver detalles</button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="recommendations">
-      <h2 class="section-title">Destinos para ti</h2>
-      <div class="filters">
-        <button class="filter-button active">Precio</button>
-        <button class="filter-button">Clima</button>
-        <button class="filter-button">Intereses</button>
-      </div>
-      
-      <div class="filter-results">
+
         <div class="destination-card">
-          <div class="card-image">
-            <i class="fas fa-image"></i>
-          </div>
-          <div class="card-content">
-            <h3 class="card-title">Granada</h3>
-            <div>
-              <span>★★★★★</span>
+            <div class="card-image" style="background-image: url('https://www.alhambra-patronato.es/wp-content/uploads/2018/11/Alhambra-de-Granada..jpg'); background-size: cover; background-position: center;">
             </div>
-            <p class="card-price">Precio €1500</p>
+          <div class="card-content">
+            <h3 class="card-title">La Alhambra</h3>
+            <p class="card-price">Precio €1700</p>
+            <span class="card-tag"><i class="fas fa-archway"></i> Historia</span>
             <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=granada'">Ver detalles</button>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=alhambra'">Ver detalles</button>
             </div>
           </div>
         </div>
-        
+
         <div class="destination-card">
-          <div class="card-image">
-            <i class="fas fa-image"></i>
+          <div class="card-image" style="background-image: url('https://evocarte.com/wp-content/uploads/2020/11/catedral-de-toledo.jpg'); background-size: cover; background-position: center;">
           </div>
-          <div class="card-content">
-            <h3 class="card-title">Sevilla</h3>
-            <p class="card-price">Precio €2000</p>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sevilla'">Ver detalles</button>
-            </div>
+        <div class="card-content">
+          <h3 class="card-title">Catedral Primada de Toledo</h3>
+          <p class="card-price">Precio €600</p>
+          <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
+          <div>
+            <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=alhambra'">Ver detalles</button>
           </div>
         </div>
       </div>
-      
-      <div style="text-align: center; margin-top: 20px;">
-        <button class="button-secondary" onclick="window.location.href='chatbot.html'">Nueva consulta con el chatbot</button>
-      </div>
+    </div>
+
     </section>
-  </main>
-  
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <h2><span>vi</span>Ajeros</h2>
-          <p>Tu asistente de viajes personal</p>
-        </div>
-        <div class="footer-links">
-          <div class="footer-column">
-            <h3>Enlaces</h3>
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="destinos.html">Destinos</a></li>
-              <li><a href="chatbot.html">Chatbot</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Legal</h3>
-            <ul>
-              <li><a href="#">Términos y condiciones</a></li>
-              <li><a href="#">Política de privacidad</a></li>
-              <li><a href="#">Cookies</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Contacto</h3>
-            <ul>
-              <li><a href="mailto:info@viajeros.com">info@viajeros.com</a></li>
-              <li><a href="tel:+34900000000">+34 900 000 000</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 viAjeros. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
-  
-  <!-- Chatbot Flotante -->
-  <div class="chat-button" id="chatButton">
-    <i class="fas fa-comment"></i>
-  </div>
-  
-  <div class="chat-window" id="chatWindow">
-    <div class="chat-header">
-      <h3>Asistente de Viajes</h3>
-      <span class="chat-close" id="chatClose">×</span>
-    </div>
-    
-    <div class="chat-messages">
-      <div class="message bot-message">
-        ¡Hola! Soy tu asistente de viajes, ¿Qué tipo de aventura buscas hoy?
-      </div>
-      
-      <div class="chat-options">
-        <div class="chat-option">¿Prefieres playa o montaña?</div>
-      </div>
-    </div>
-    
-    <div class="chat-input">
-      <input type="text" placeholder="Escribe tu mensaje...">
-      <button><i class="fas fa-paper-plane"></i></button>
-    </div>
-  </div>
-</body>
-</html>
+
+    <footer>
+      <a href="privacy.html">Política de Privacidad</a> | <a href="terms.html">Términos de Servicio</a>
+      <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
+    </footer>

@@ -1,0 +1,169 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destinos-header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.filter-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filter-group {
+  flex: 1 1 250px;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.destinations-results {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.destination-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.destination-card.visible {
+  opacity: 1;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #0078d7;
+  color: #fff;
+}
+
+.need-help {
+  background-color: #eaf4ff;
+  padding: 40px 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/* Botones filtro */
+button {
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #72a2d3;
+}
+
+button:active {
+  background-color: #dcecff;
+}
+
+/* Estilo para los filtros activos */
+.filter-tag {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-tag:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-tag.active {
+  background-color: #0078d7;
+  color: #fff;
+  border-color: #005bb5;
+}

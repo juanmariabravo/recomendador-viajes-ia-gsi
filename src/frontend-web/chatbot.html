@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot - vIAjeros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="chatbot.css">
+  <!-- Botpress Webchat -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1><span>vi</span>Ajeros</h1>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="destinos.html">Destinos</a>
+          <a href="chatbot.html" class="active">Chatbot</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="container">
+    <section class="chatbot-header">
+      <h1>Tu asistente de viajes personal</h1>
+      <p>Cuéntanos qué tipo de experiencia estás buscando y te ayudaremos a encontrar el destino perfecto</p>
+    </section>
+    
+    <section class="chatbot-container">
+      <div class="chatbot-sidebar">
+        <div class="chatbot-info">
+          <h2>¿Cómo puedo ayudarte?</h2>
+          <p>Nuestro asistente de viajes puede:</p>
+          <ul>
+            <li><i class="fas fa-map-marked-alt"></i> Recomendarte destinos</li>
+            <li><i class="fas fa-umbrella-beach"></i> Sugerir actividades</li>
+            <li><i class="fas fa-euro-sign"></i> Ayudarte con el presupuesto</li>
+            <li><i class="fas fa-calendar-alt"></i> Planificar tu itinerario</li>
+          </ul>
+        </div>
+        
+        <div class="chatbot-examples">
+          <h3>Prueba estas preguntas:</h3>
+          <div class="example-questions">
+            <div class="example-question">¿Qué destinos de playa me recomiendas?</div>
+            <div class="example-question">Quiero viajar a la montaña con un presupuesto de 1500€</div>
+            <div class="example-question">¿Qué actividades hay en Barcelona?</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="chatbot-main">
+        <div id="webchat" class="webchat-container"></div>
+      </div>
+    </section>
+    
+    <section class="destinations-preview">
+      <h2 class="section-title">Destinos populares</h2>
+      <div class="destinations">
+        <div class="destination-card">
+            <div class="card-image" style="background-image: url('https://www.rutaspirineos.org/imagenes/zonas/parc-national-des-pyrenees.jpg'); background-size: cover; background-position: center;">
+            </div>
+          <div class="card-content">
+            <h3 class="card-title">Parque Nacional de los Pirineos</h3>
+            <p class="card-price">Precio €2000</p>
+            <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
+            <div>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=pirineos'">Ver detalles</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+            <div class="card-image" style="background-image: url('https://znaki.fm/static/content/thumbs/1200x900/9/1c/desgdx---c4x3x50px50p--597c1d6c092c7c39502def503927d1c9.jpg'); background-size: cover; background-position: center;">
+            </div>
+          <div class="card-content">
+            <h3 class="card-title">Palacio Real de Madrid</h3>
+            <p class="card-price">Precio €1800</p>
+            <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
+            <div>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=palacio'">Ver detalles</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination-card">
+            <div class="card-image" style="background-image: url('https://cdn-imgix.headout.com/mircobrands-content/image/b299bd25f75c1e299c877fed458576fa-Sagrada%20Familia%20-%20Facades.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces'); background-size: cover; background-position: center;">
+            </div>
+          <div class="card-content">
+            <h3 class="card-title">La Sagrada Familia</h3>
+            <p class="card-price">Precio €1500</p>
+            <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
+            <div>
+              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sagrada-familia'">Ver detalles</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+  </main>
+  
+  <footer>
+    <a href="privacy.html">Política de Privacidad</a> | <a href="terms.html">Términos de Servicio</a>
+    <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
