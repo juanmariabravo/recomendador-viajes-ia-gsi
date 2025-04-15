@@ -96,6 +96,37 @@ Este proyecto surge de la necesidad de simplificar y personalizar la búsqueda d
 🔹 Posibles contratiempos:  
 - Verificar la estabilidad de las URLs de las imágenes a largo plazo, ya que algunas podrían no estar disponibles en el futuro.  
 ```
+
+A continuación, se muestran capturas de pantalla de las páginas principales del sistema, con su nuevo diseño moderno, usable, unificado y atractivo.
+
+<img src="assets/aspecto_web_1.png" alt="Captura de pantalla de la página principal" width="100%"/>
+<hr>
+<img src="assets/aspecto_web_2.png" alt="Captura de pantalla de la página de destinos" width="100%"/>
+<hr>
+<img src="assets/aspecto_web_3.png" alt="Captura de pantalla de la página de contacto" width="100%"/>
+<hr>
+
+```
+🗓️ Fecha: 13/04/2025  
+🔹 Actividades realizadas:  
+- Finalizado el diseño de la página del chatbot.  
+- Entrenado el bot para que sea consciente de su rol como asistente de viajes y formule preguntas relacionadas con preferencias de viaje.  Como podemos ver en la siguiente captura de pantalla, el bot ya es capaz de preguntar al usuario por sus preferencias de viaje sin necesidad de que el usuario le indique que lo haga.
+```
+
+<img src="assets/consciencia_bot_asistente_de_viajes.png" alt="Captura de pantalla del bot" width="100%"/>
+
+```
+- Integrado el chatbot en la página web con funcionalidad completa y operativa.  
+
+🔹 Dificultades encontradas:  
+- Ajustes en el entrenamiento del bot para mejorar la precisión de las preguntas y respuestas.  
+
+🔹 Soluciones aplicadas:  
+- Se realizaron iteraciones en el entrenamiento del bot y pruebas exhaustivas para garantizar su correcto funcionamiento.  
+
+🔹 Posibles contratiempos:  
+- Monitorear el rendimiento del chatbot en escenarios reales para identificar posibles mejoras.  
+```
 ---
 
 ### 5. **Referencias**
