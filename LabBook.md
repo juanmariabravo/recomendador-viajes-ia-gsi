@@ -64,6 +64,38 @@ Este proyecto surge de la necesidad de simplificar y personalizar la búsqueda d
 - [README.md](README.md).
 🔹No ha habido dificultades relevantes.
 
+🗓️ Fecha: 25/03/2025  
+🔹 Actividades realizadas:  
+- Creación de prototipos de baja fidelidad para las ventanas principales de la web.  
+- Revisión y ajustes en la estructura inicial del diseño para garantizar una navegación intuitiva.  
+
+🔹 Dificultades encontradas:  
+- Dudas sobre la disposición óptima de algunos elementos en las ventanas principales.  
+
+🔹 Soluciones aplicadas:  
+- Se realizaron pruebas con diferentes disposiciones y se seleccionó la más clara y funcional.  
+
+🔹 Posibles contratiempos:  
+- Es posible que los prototipos requieran ajustes adicionales posteriormente.  
+```
+```
+🗓️ Fecha: 01/04/2025  
+🔹 Actividades realizadas:  
+- Añadidas todas las páginas del sistema con un estilo unificado y moderno.  
+- Incorporados numerosos destinos de ejemplo en la base de datos.  
+- Implementada la funcionalidad de paginación en la sección de Destinos.  
+- Desarrolladas las funciones de búsqueda y filtrado de Destinos.  
+- Añadidas imágenes representativas de todos los destinos mediante URLs.  
+
+🔹 Dificultades encontradas:  
+- Ajustes en el diseño responsivo para garantizar una experiencia óptima en dispositivos móviles.  
+
+🔹 Soluciones aplicadas:  
+- Se realizaron pruebas en diferentes resoluciones y se ajustaron los estilos CSS para mejorar la responsividad.  
+
+🔹 Posibles contratiempos:  
+- Verificar la estabilidad de las URLs de las imágenes a largo plazo, ya que algunas podrían no estar disponibles en el futuro.  
+```
 ---
 
 ### 5. **Referencias**

@@ -41,13 +41,18 @@ Si desea visualizar el aspecto de la web, siga los siguientes pasos:
 │   └── ui-ideas.md              # Ideas y referencias para el diseño de UI/UX
 │
 ├── 📁 src/                      # Código fuente del proyecto (cuando se inicie el desarrollo)
-│   ├── frontend/                # Carpeta para el desarrollo del frontend con HTML, CSS, JS
+│   ├── frontend-web/            # Carpeta para el desarrollo del frontend con HTML, CSS, JS
 │   │   ├── index.html           # Página principal de la aplicación
-│   │   ├── styles.css           # Estilos CSS para la interfaz
-│   │   ├── scripts.js           # Scripts JS para la interactividad de la página
+│   │   ├── destinos.html        # Página de destinos turísticos
+│   │   ├── detalle-destino.html # Página de detalle de un destino
+│   │   ├── chatbot.html         # Página del chatbot interactivo
+│   │   ├── styles.css           # Estilos CSS globales para la interfaz
+│   │   ├── destinos.css         # Estilos CSS específicos para la página de destinos
+│   │   ├── chatbot.css          # Estilos CSS específicos para la página del chatbot
+│   │   ├── main.js              # Scripts JS compartidos por todas las páginas
+│   │   ├── destinos.js          # Scripts JS específicos para la página de destinos
+│   │   ├── chatbot.js           # Scripts JS específicos para la página del chatbot
 │   │   └── assets/              # Recursos estáticos (imágenes, iconos)
-│   ├── backend/                 # Carpeta para el backend si se requiere más adelante
-│   └── chatbot/                 # Configuración y scripts del chatbot (Botpress o alternativa)
 │
 ├── 📁 db/                       # Datos y base de datos de destinos turísticos
 │
