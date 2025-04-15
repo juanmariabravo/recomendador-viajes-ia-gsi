@@ -8,8 +8,50 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="chatbot.css">
-  <!-- Botpress Webchat -->
   <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.botpress.on("webchat:ready", () => {
+        // Abre el chatbot automáticamente cuando esté listo
+        window.botpress.open();
+
+        // Configura las preguntas predefinidas después de que el chatbot esté listo
+        setupExampleQuestions();
+      });
+
+      // Inicializa Botpress después de que el DOM esté completamente cargado
+      window.botpress.init({
+        "botId": "9f472344-9c0d-40be-9fff-c3339d67a4c1",
+        "configuration": {
+          "composerPlaceholder": "¡Habla con nuestra asistente!",
+          "botName": "SofIA",
+          "botAvatar": "https://files.bpcontent.cloud/2025/04/09/11/20250409114906-QU0KFMX5.png",
+          "botDescription": "Tu asistente personal de vIAjeros",
+          "color": "#3B82F6",
+          "variant": "solid",
+          "themeMode": "light",
+          "fontFamily": "inter",
+          "radius": 1
+        },
+        "clientId": "42883c3e-397b-4891-9f21-f88c10949060",
+        "selector": "#webchat"
+      });
+    });
+  </script>
+  <script src="js/chatbot.js"></script>
+  <style>
+    #webchat .bpWebchat {
+      position: unset;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    #webchat .bpFab {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -28,10 +70,10 @@
   </header>
   
   <main class="container">
-    <section class="chatbot-header">
+    <!-- <section class="chatbot-header">
       <h1>Tu asistente de viajes personal</h1>
       <p>Cuéntanos qué tipo de experiencia estás buscando y te ayudaremos a encontrar el destino perfecto</p>
-    </section>
+    </section> -->
     
     <section class="chatbot-container">
       <div class="chatbot-sidebar">
@@ -54,64 +96,21 @@
             <div class="example-question">¿Qué actividades hay en Barcelona?</div>
           </div>
         </div>
+        <br>
+        <div class="chatbot-contact">
+          <h3>SofIA es tu asistente de viajes personal</h3>
+          <p style="font-size: small;">Cuéntanos qué tipo de experiencia estás buscando y te ayudaremos a encontrar el destino perfecto</p>
+        </div>
       </div>
-      
       <div class="chatbot-main">
-        <div id="webchat" class="webchat-container"></div>
+        <div id="webchat" style="width: 500px; height: 500px;"></div>
       </div>
-    </section>
-    
-    <section class="destinations-preview">
-      <h2 class="section-title">Destinos populares</h2>
-      <div class="destinations">
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://www.rutaspirineos.org/imagenes/zonas/parc-national-des-pyrenees.jpg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">Parque Nacional de los Pirineos</h3>
-            <p class="card-price">Precio €2000</p>
-            <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=pirineos'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://znaki.fm/static/content/thumbs/1200x900/9/1c/desgdx---c4x3x50px50p--597c1d6c092c7c39502def503927d1c9.jpg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">Palacio Real de Madrid</h3>
-            <p class="card-price">Precio €1800</p>
-            <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=palacio'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://cdn-imgix.headout.com/mircobrands-content/image/b299bd25f75c1e299c877fed458576fa-Sagrada%20Familia%20-%20Facades.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">La Sagrada Familia</h3>
-            <p class="card-price">Precio €1500</p>
-            <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sagrada-familia'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-    </div>
     </section>
   </main>
   
   <footer>
-    <a href="privacy.html">Política de Privacidad</a> | <a href="terms.html">Términos de Servicio</a>
+    <a href="privacy-terms.html">Política de Privacidad</a> | <a href="privacy-terms.html">Términos de Servicio</a>
     <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
   </footer>
-  
-  <script src="js/main.js"></script>
-  <script src="js/chatbot.js"></script>
 </body>
 </html>
