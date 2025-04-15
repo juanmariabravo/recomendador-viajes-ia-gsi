@@ -79,6 +79,14 @@ filterTags.forEach(tag => {
     });
   });
 
+
+  // Agregar la clase "visible" a cada tarjeta después de un pequeño retraso
+  cards.forEach((card, index) => {
+    setTimeout(() => {
+      card.classList.add('visible');
+    }, index * 100); // Retraso de 100ms entre cada tarjeta
+  });
+
   
   function applyFiltersAndSearch() {
     const searchTerm = searchInput.value.toLowerCase().trim();
