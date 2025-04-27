@@ -150,8 +150,13 @@ Se ha de mejorar y perfeccionar el uso del chatbot, así como las recomendacione
 🗓️ Fecha: 22/04/2025
 🔹 Actividades realizadas:
 - Tras encontrarse con grandes problemas de integración del chatbot en un frame de la web, se ha decidido crear una página independiente para el chatbot.
+- Se han completado las tareas pendientes, como la mejora de las recomendaciones del bot o la mejora del estilo de la página de detalles de los eventos. 
+```
 
 Ahora el bot entrenado será usable desde la siguiente URL: https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json
+
+<img src="assets/chatbot_page.png" alt="Captura de pantalla de la página del chatbot" width="100%"/>
+
 ---
 
 ### 5. **Referencias**
