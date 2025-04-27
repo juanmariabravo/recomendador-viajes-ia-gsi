@@ -127,6 +127,13 @@ A continuación, se muestran capturas de pantalla de las páginas principales de
 🔹 Posibles contratiempos:  
 - Monitorear el rendimiento del chatbot en escenarios reales para identificar posibles mejoras.  
 ```
+
+```
+🗓️ Fecha: 22/04/2025
+🔹 Actividades realizadas:
+- Tras encontrarse con grandes problemas de integración del chatbot en un frame de la web, se ha decidido crear una página independiente para el chatbot.
+
+Ahora el bot entrenado será usable desde la siguiente URL: https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json
 ---
 
 ### 5. **Referencias**
