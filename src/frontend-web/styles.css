@@ -116,70 +116,66 @@
     margin-bottom: 40px;
   }
   
+  .destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
   .destination-card {
-    background-color: white;
-    border-radius: 5px;
-    overflow: hidden;
+    background: white;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    min-height: 400px; /* Altura mínima para que las cards sean visibles */
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-5px);
   }
   
   .card-image {
-    height: 180px;
-    background-color: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .card-image i {
-    font-size: 36px;
-    color: #aaa;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
   }
   
   .card-content {
-    padding: 15px;
+    padding: 1rem;
   }
   
   .card-title {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
   }
   
   .card-price {
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
   }
   
   .card-tag {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #2AABDE;
-    color: white;
-    border-radius: 3px;
-    font-size: 14px;
-    margin-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #666;
   }
-  
-  .card-tag i {
-    margin-right: 5px;
-  }
-  
+
   .button-secondary {
-    background-color: #F8A055;
+    background-color: #007bff;
     color: white;
-    padding: 8px 16px;
     border: none;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
-    font-weight: 500;
-    font-size: 14px;
     cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
   }
   
   .button-secondary:hover {
-    background-color: #F69042;
+    background-color: #0056b3;
   }
   
   /* Chatbot */
@@ -460,4 +456,60 @@ footer {
 footer a {
   color: #0078d7;
   text-decoration: none;
+}
+
+.popular-destinations {
+  padding: 2rem 0;
+}
+
+.popular-destinations h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.popular-destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 cards por fila cuando el espacio lo permita */
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.popular-destination-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.popular-destination-card:hover {
+  transform: translateY(-5px);
+}
+
+.popular-destination-card .card-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.popular-destination-card .card-content {
+  padding: 1rem;
+}
+
+.popular-destination-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.popular-destination-card .card-price {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.popular-destination-card .card-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: #666;
 }

@@ -1,0 +1,1370 @@
+{
+  "destinos": [
+    {
+      "id": "tayrona",
+      "nombre": "Parque Tayrona",
+      "descripcion": "Parque natural en Colombia con hermosas playas y una rica biodiversidad, ideal para el ecoturismo y la observación de la naturaleza.",
+      "precio": 2500,
+      "tipo": "playa",
+      "imagenPrincipal": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cabo_San_Juan%2C_Colombia.jpg",
+      "galeria": [
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Cabo San Juan",
+          "descripcion": "Una de las playas más famosas del parque, con aguas cristalinas y arena blanca.",
+          "tipo": "playa"
+        },
+        {
+          "nombre": "Sendero del Jaguar",
+          "descripcion": "Ruta que atraviesa la selva tropical y ofrece vistas panorámicas del parque.",
+          "tipo": "naturaleza"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Snorkeling en las playas del parque",
+          "descripcion": "Explora la vida marina del Caribe colombiano.",
+          "precio": 35,
+          "icono": "fas fa-fish"
+        },
+        {
+          "nombre": "Senderismo por la selva tropical",
+          "descripcion": "Ruta guiada por los senderos más hermosos del parque.",
+          "precio": 45,
+          "icono": "fas fa-tree"
+        },
+        {
+          "nombre": "Observación de aves y vida silvestre",
+          "descripcion": "Tour para ver la rica biodiversidad del parque.",
+          "precio": 50,
+          "icono": "fas fa-binoculars"
+        },
+        {
+          "nombre": "Visita a las ruinas arqueológicas Tayrona",
+          "descripcion": "Descubre la historia de los Tayronas.",
+          "precio": 60,
+          "icono": "fas fa-history"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 850,
+      "precioEntrada": 15,
+      "ubicacion": {
+        "direccion": "Cabo de San Juan del Guía, Santa Marta, Colombia",
+        "horario": {
+          "apertura": "7:00",
+          "cierre": "17:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Ana García",
+          "contenido": "Una experiencia única. Las playas son increíblemente hermosas y la biodiversidad es fascinante.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Carlos Martínez",
+          "contenido": "El senderismo por la selva es impresionante. Recomiendo llevar repelente y mucha agua.",
+          "fecha": "Publicado el 26 de abril de 2025",
+          "valoracion": 4.5
+        }
+      ]
+    },
+    {
+      "id": "machu-picchu",
+      "nombre": "Machu Picchu",
+      "descripcion": "La ciudad inca más famosa del mundo, situada en las montañas peruanas y declarada Patrimonio de la Humanidad.",
+      "precio": 3000,
+      "tipo": "montaña",
+      "imagenPrincipal": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/1200px-Machu_Picchu%2C_Peru_%282018%29.jpg",
+      "galeria": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/1200px-Machu_Picchu%2C_Peru_%282018%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/1200px-Machu_Picchu%2C_Peru_%282018%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg/1200px-Machu_Picchu%2C_Peru_%282018%29.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Huayna Picchu",
+          "descripcion": "Montaña que ofrece vistas espectaculares de toda la ciudad inca.",
+          "tipo": "montaña"
+        },
+        {
+          "nombre": "Templo del Sol",
+          "descripcion": "Una de las estructuras más importantes de Machu Picchu, dedicada al dios del sol.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Trekking al Santuario Inca",
+          "descripcion": "Ruta guiada por las ruinas de Machu Picchu.",
+          "precio": 80,
+          "icono": "fas fa-hiking"
+        },
+        {
+          "nombre": "Visita guiada a las ruinas",
+          "descripcion": "Tour completo con guía experto en historia inca.",
+          "precio": 70,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Senderismo por el Camino Inca",
+          "descripcion": "Experiencia de 4 días por el famoso Camino Inca.",
+          "precio": 250,
+          "icono": "fas fa-mountain"
+        },
+        {
+          "nombre": "Observación de la flora y fauna andina",
+          "descripcion": "Tour para conocer la biodiversidad del lugar.",
+          "precio": 55,
+          "icono": "fas fa-leaf"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 1500,
+      "precioEntrada": 50,
+      "ubicacion": {
+        "direccion": "Machu Picchu District, Cusco Region, Perú",
+        "horario": {
+          "apertura": "6:00",
+          "cierre": "17:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "María Rodríguez",
+          "contenido": "Una experiencia inolvidable. Las vistas son impresionantes y la historia fascinante.",
+          "fecha": "Publicado el 27 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Pedro Sánchez",
+          "contenido": "El trekking es exigente pero vale completamente la pena. Las vistas son espectaculares.",
+          "fecha": "Publicado el 25 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "coliseo",
+      "nombre": "Coliseo Romano",
+      "descripcion": "El anfiteatro más grande jamás construido en el Imperio Romano, símbolo de la antigua Roma y su historia.",
+      "precio": 2200,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+      "galeria": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Foro Romano",
+          "descripcion": "El corazón de la vida pública de la antigua Roma, lleno de templos y edificios históricos.",
+          "tipo": "historia"
+        },
+        {
+          "nombre": "Palatino",
+          "descripcion": "La colina más central de Roma, hogar de los emperadores romanos.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada al Coliseo",
+          "descripcion": "Tour completo del anfiteatro con guía experto en historia romana.",
+          "precio": 60,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Tour nocturno por el Foro Romano",
+          "descripcion": "Experiencia única para ver los monumentos iluminados por la noche.",
+          "precio": 70,
+          "icono": "fas fa-moon"
+        },
+        {
+          "nombre": "Experiencia virtual de la Roma Antigua",
+          "descripcion": "Recorrido virtual que muestra cómo era la ciudad en tiempos del Imperio.",
+          "precio": 50,
+          "icono": "fas fa-glasses"
+        },
+        {
+          "nombre": "Degustación de cocina romana",
+          "descripcion": "Disfruta de los platos tradicionales de la cocina romana.",
+          "precio": 45,
+          "icono": "fas fa-utensils"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 2200,
+      "precioEntrada": 30,
+      "ubicacion": {
+        "direccion": "Piazza del Colosseo, 1, 00184 Roma RM, Italia",
+        "horario": {
+          "apertura": "8:30",
+          "cierre": "18:30",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Ana García",
+          "contenido": "Una visita impresionante. La historia del Coliseo es fascinante y las vistas son espectaculares.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Carlos Martínez",
+          "contenido": "La visita guiada es muy interesante y las vistas desde el interior son impresionantes.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.9
+        }
+      ]
+    },
+    {
+      "id": "gran-canon",
+      "nombre": "Gran Cañón",
+      "descripcion": "Uno de los paisajes más espectaculares del mundo, con sus impresionantes formaciones rocosas y vistas panorámicas.",
+      "precio": 1800,
+      "tipo": "montaña",
+      "imagenPrincipal": "https://www.globalnationalparks.com/es/wp-content/uploads/national-park-grand-canyon.jpg",
+      "galeria": [
+        "https://www.globalnationalparks.com/es/wp-content/uploads/national-park-grand-canyon.jpg",
+        "https://www.globalnationalparks.com/es/wp-content/uploads/national-park-grand-canyon.jpg",
+        "https://www.globalnationalparks.com/es/wp-content/uploads/national-park-grand-canyon.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "South Rim",
+          "descripcion": "La parte más visitada del Gran Cañón, con vistas espectaculares y fácil acceso.",
+          "tipo": "montaña"
+        },
+        {
+          "nombre": "North Rim",
+          "descripcion": "La parte menos visitada pero igualmente impresionante del Gran Cañón.",
+          "tipo": "montaña"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Paseo en helicóptero",
+          "descripcion": "Vistas aéreas espectaculares del Gran Cañón.",
+          "precio": 250,
+          "icono": "fas fa-helicopter"
+        },
+        {
+          "nombre": "Senderismo por el cañón",
+          "descripcion": "Ruta guiada por los senderos más hermosos del Gran Cañón.",
+          "precio": 150,
+          "icono": "fas fa-hiking"
+        },
+        {
+          "nombre": "Paseo en barco por el río Colorado",
+          "descripcion": "Disfruta de las vistas desde el río que formó el cañón.",
+          "precio": 180,
+          "icono": "fas fa-ship"
+        },
+        {
+          "nombre": "Observación de la naturaleza",
+          "descripcion": "Tour para conocer la flora y fauna del Gran Cañón.",
+          "precio": 70,
+          "icono": "fas fa-binoculars"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 1800,
+      "precioEntrada": 35,
+      "ubicacion": {
+        "direccion": "Grand Canyon Village, AZ 86023, Estados Unidos",
+        "horario": {
+          "apertura": "6:00",
+          "cierre": "18:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "María Sánchez",
+          "contenido": "Una vista impresionante. El paseo en helicóptero es una experiencia única.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Juan Martínez",
+          "contenido": "El senderismo es increíble pero requiere preparación física. Las vistas son espectaculares.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "eiffel",
+      "nombre": "Torre Eiffel",
+      "descripcion": "El símbolo más reconocible de París y Francia, construida para la Exposición Universal de 1889.",
+      "precio": 2000,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://cdn-imgix.headout.com/mircobrands-content/image/ea04ba5d0f9a6571145de80ede53a572-The%20Esplanade%20eiffel%20tower.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces",
+      "galeria": [
+        "https://cdn-imgix.headout.com/mircobrands-content/image/ea04ba5d0f9a6571145de80ede53a572-The%20Esplanade%20eiffel%20tower.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces",
+        "https://cdn-imgix.headout.com/mircobrands-content/image/ea04ba5d0f9a6571145de80ede53a572-The%20Esplanade%20eiffel%20tower.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces",
+        "https://cdn-imgix.headout.com/mircobrands-content/image/ea04ba5d0f9a6571145de80ede53a572-The%20Esplanade%20eiffel%20tower.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Plataforma superior",
+          "descripcion": "Ofrece las vistas más espectaculares de París.",
+          "tipo": "monumento"
+        },
+        {
+          "nombre": "Jardines de Champ de Mars",
+          "descripcion": "Lugar perfecto para disfrutar de la Torre Eiffel desde abajo.",
+          "tipo": "parque"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Tour completo de la Torre Eiffel con guía experto.",
+          "precio": 60,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Subida a la plataforma superior",
+          "descripcion": "Acceso a la vista más alta de París.",
+          "precio": 45,
+          "icono": "fas fa-elevator"
+        },
+        {
+          "nombre": "Tour nocturno con iluminación",
+          "descripcion": "Disfruta de la Torre Eiffel iluminada por la noche.",
+          "precio": 55,
+          "icono": "fas fa-moon"
+        },
+        {
+          "nombre": "Visita al museo Gustave Eiffel",
+          "descripcion": "Conoce la historia de la construcción de la Torre.",
+          "precio": 40,
+          "icono": "fas fa-book"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 2500,
+      "precioEntrada": 25,
+      "ubicacion": {
+        "direccion": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, Francia",
+        "horario": {
+          "apertura": "9:30",
+          "cierre": "23:45",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Ana López",
+          "contenido": "Una vista espectacular de París. La visita nocturna es impresionante.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Juan Martínez",
+          "contenido": "La visita guiada es muy interesante y las vistas son inolvidables.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "cristo-redentor",
+      "nombre": "Cristo Redentor",
+      "descripcion": "La estatua más grande del mundo de Jesucristo, que se alza sobre la ciudad de Río de Janeiro.",
+      "precio": 2300,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://turismoenrio.com/img/cristo-redentor-1.webp",
+      "galeria": [
+        "https://turismoenrio.com/img/cristo-redentor-1.webp",
+        "https://turismoenrio.com/img/cristo-redentor-1.webp",
+        "https://turismoenrio.com/img/cristo-redentor-1.webp"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Mirador del Corcovado",
+          "descripcion": "Punto panorámico con vistas espectaculares de Río de Janeiro.",
+          "tipo": "monumento"
+        },
+        {
+          "nombre": "Tren del Corcovado",
+          "descripcion": "Tren histórico que sube hasta el Cristo Redentor.",
+          "tipo": "turismo"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Tour completo del Cristo Redentor con guía experto.",
+          "precio": 70,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Subida en tren del Corcovado",
+          "descripcion": "Experiencia única en el famoso tren histórico.",
+          "precio": 65,
+          "icono": "fas fa-train"
+        },
+        {
+          "nombre": "Tour panorámico de Río",
+          "descripcion": "Vistas espectaculares de la ciudad desde el Cristo.",
+          "precio": 55,
+          "icono": "fas fa-binoculars"
+        },
+        {
+          "nombre": "Visita al mirador del Corcovado",
+          "descripcion": "Acceso al punto más alto del Corcovado.",
+          "precio": 45,
+          "icono": "fas fa-mountain"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 2000,
+      "precioEntrada": 60,
+      "ubicacion": {
+        "direccion": "Morro do Corcovado, Parque Nacional da Tijuca, Rio de Janeiro, Brasil",
+        "horario": {
+          "apertura": "8:00",
+          "cierre": "18:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "María Sánchez",
+          "contenido": "Una vista impresionante de Río. La visita en tren es una experiencia única.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Carlos Rodríguez",
+          "contenido": "Las vistas desde el mirador son espectaculares. Recomiendo ir temprano para evitar colas.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.9
+        }
+      ]
+    },
+    {
+      "id": "sagrada-familia",
+      "nombre": "La Sagrada Familia",
+      "descripcion": "La obra maestra inacabada de Antoni Gaudí, una de las iglesias más famosas del mundo.",
+      "precio": 1500,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://www.recordrentacar.com/blog/wp-content/uploads/2023/08/sagrada-familia-barcelona-scaled.jpeg",
+      "galeria": [
+        "https://www.recordrentacar.com/blog/wp-content/uploads/2023/08/sagrada-familia-barcelona-scaled.jpeg",
+        "https://www.recordrentacar.com/blog/wp-content/uploads/2023/08/sagrada-familia-barcelona-scaled.jpeg",
+        "https://www.recordrentacar.com/blog/wp-content/uploads/2023/08/sagrada-familia-barcelona-scaled.jpeg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Nave central",
+          "descripcion": "Espacio principal de la catedral con sus famosas columnas.",
+          "tipo": "monumento"
+        },
+        {
+          "nombre": "Torres",
+          "descripcion": "Las icónicas torres de la Sagrada Familia, en constante construcción.",
+          "tipo": "monumento"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Tour completo de la Sagrada Familia con guía experto.",
+          "precio": 60,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Subida a las torres",
+          "descripcion": "Acceso a las vistas panorámicas desde las torres.",
+          "precio": 75,
+          "icono": "fas fa-elevator"
+        },
+        {
+          "nombre": "Visita nocturna con iluminación",
+          "descripcion": "Experiencia única de ver la catedral iluminada por la noche.",
+          "precio": 80,
+          "icono": "fas fa-moon"
+        },
+        {
+          "nombre": "Tour de la cripta",
+          "descripcion": "Visita a las partes más antiguas de la catedral.",
+          "precio": 45,
+          "icono": "fas fa-history"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 3000,
+      "precioEntrada": 30,
+      "ubicacion": {
+        "direccion": "Carrer de Mallorca, 401, 08013 Barcelona, España",
+        "horario": {
+          "apertura": "9:00",
+          "cierre": "18:30",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Ana García",
+          "contenido": "Una obra de arte impresionante. La visita guiada es muy interesante y las vistas desde las torres son espectaculares.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Pedro Martínez",
+          "contenido": "La arquitectura de Gaudí es fascinante. Recomiendo llegar temprano para evitar las colas.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.9
+        }
+      ]
+    },
+    {
+      "id": "toledo",
+      "nombre": "Toledo",
+      "descripcion": "Ciudad declarada Patrimonio de la Humanidad, famosa por su rica historia y arquitectura medieval.",
+      "precio": 2200,
+      "tipo": "ciudad",
+      "imagenPrincipal": "https://untapirtienemimapa.org/wp-content/uploads/2022/06/Las-mejores-vistas-de-Toledo.jpg",
+      "galeria": [
+        "https://untapirtienemimapa.org/wp-content/uploads/2022/06/Las-mejores-vistas-de-Toledo.jpg",
+        "https://untapirtienemimapa.org/wp-content/uploads/2022/06/Las-mejores-vistas-de-Toledo.jpg",
+        "https://untapirtienemimapa.org/wp-content/uploads/2022/06/Las-mejores-vistas-de-Toledo.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Catedral de Toledo",
+          "descripcion": "Una de las catedrales góticas más importantes de España.",
+          "tipo": "monumento"
+        },
+        {
+          "nombre": "Puente de San Martín",
+          "descripcion": "Puente medieval que ofrece vistas espectaculares de la ciudad.",
+          "tipo": "turismo"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada por el Toledo histórico",
+          "descripcion": "Tour por las calles más emblemáticas de la ciudad.",
+          "precio": 50,
+          "icono": "fas fa-city"
+        },
+        {
+          "nombre": "Visita a la Catedral",
+          "descripcion": "Tour completo de la Catedral de Toledo con guía experto.",
+          "precio": 45,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Degustación de platos toledanos",
+          "descripcion": "Disfruta de la gastronomía tradicional de Toledo.",
+          "precio": 60,
+          "icono": "fas fa-utensils"
+        },
+        {
+          "nombre": "Visita a la Sinagoga del Tránsito",
+          "descripcion": "Conoce la historia judía de Toledo.",
+          "precio": 35,
+          "icono": "fas fa-star-of-david"
+        }
+      ],
+      "valoracion": 4.7,
+      "opiniones": 1800,
+      "precioEntrada": 20,
+      "ubicacion": {
+        "direccion": "Toledo, Castilla-La Mancha, España",
+        "horario": {
+          "apertura": "9:00",
+          "cierre": "20:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "María López",
+          "contenido": "Una ciudad impresionante. La arquitectura medieval es fascinante y la gastronomía excelente.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Juan García",
+          "contenido": "La visita guiada es muy interesante y las vistas desde el Puente de San Martín son espectaculares.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "playa-toledo",
+      "nombre": "Playa de Toledo",
+      "descripcion": "Una hermosa playa fluvial en Toledo, ideal para disfrutar del río y la naturaleza.",
+      "precio": 800,
+      "tipo": "rio",
+      "imagenPrincipal": "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG",
+      "galeria": [
+        "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG",
+        "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG",
+        "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Parque Natural del Tajo",
+          "descripcion": "Área protegida que rodea la playa fluvial.",
+          "tipo": "naturaleza"
+        },
+        {
+          "nombre": "Senderos del Tajo",
+          "descripcion": "Caminos que permiten explorar la naturaleza a lo largo del río.",
+          "tipo": "turismo"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Paseos en bote por el río",
+          "descripcion": "Disfruta de un tranquilo paseo en bote por el río Tajo.",
+          "precio": 25,
+          "icono": "fas fa-ship"
+        },
+        {
+          "nombre": "Senderismo por las orillas del Tajo",
+          "descripcion": "Ruta guiada por los senderos del Parque Natural.",
+          "precio": 30,
+          "icono": "fas fa-hiking"
+        },
+        {
+          "nombre": "Relajación en la playa fluvial",
+          "descripcion": "Disfruta de un día de descanso en la playa del río Tajo.",
+          "precio": 15,
+          "icono": "fas fa-sun"
+        },
+        {
+          "nombre": "Observación de aves",
+          "descripcion": "Tour para ver las especies de aves del Parque Natural.",
+          "precio": 40,
+          "icono": "fas fa-binoculars"
+        }
+      ],
+      "valoracion": 4.5,
+      "opiniones": 650,
+      "precioEntrada": 5,
+      "ubicacion": {
+        "direccion": "Playa Fluvial del Tajo, Toledo, España",
+        "horario": {
+          "apertura": "10:00",
+          "cierre": "20:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Laura Fernández",
+          "contenido": "Una playa fluvial increíble. El agua es muy limpia y el entorno natural es precioso.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Carlos García",
+          "contenido": "Los paseos en bote son muy recomendables. Las vistas del río son espectaculares.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.5
+        }
+      ]
+    },
+    {
+      "id": "gran-muralla",
+      "nombre": "Gran Muralla China",
+      "descripcion": "La estructura arquitectónica más larga del mundo, construida para proteger el imperio chino de las invasiones.",
+      "precio": 2700,
+      "tipo": "historia",
+      "imagenPrincipal": "https://img.static-kl.com/images/media/E5F5918C-9435-4CE6-9775780B48F3C39D",
+      "galeria": [
+        "https://www.chinahighlights.com/greatwall/img/the-great-wall-of-china-at-mutianyu.jpg",
+        "https://media.cntraveler.com/photos/5eb18c55e79a4c0911c8c1e9/16:9/w_2560%2Cc_limit/GreatWallChina-GettyImages-1151431896.jpg",
+        "https://www.travelandleisure.com/thmb/1qHHXJdXz2fY1bf8Y8N1kXm3Xz0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-wall-of-china-beijing-BESTWALL1021-1a0a5f0d5e2e4b9e9a3a0a3e3e3e3e3.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Mutianyu",
+          "descripcion": "Sección mejor conservada con impresionantes vistas montañosas y vegetación exuberante.",
+          "tipo": "historia"
+        },
+        {
+          "nombre": "Badaling",
+          "descripcion": "La parte más famosa y visitada, con fácil acceso desde Pekín.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Senderismo por la muralla",
+          "descripcion": "Recorre las secciones más espectaculares de esta maravilla arquitectónica.",
+          "precio": 75,
+          "icono": "fas fa-hiking"
+        },
+        {
+          "nombre": "Visita guiada histórica",
+          "descripcion": "Aprende sobre la fascinante historia de esta construcción milenaria.",
+          "precio": 90,
+          "icono": "fas fa-history"
+        },
+        {
+          "nombre": "Teleférico y tobogán",
+          "descripcion": "Sube en teleférico y baja en emocionante tobogán en la sección de Mutianyu.",
+          "precio": 55,
+          "icono": "fas fa-tram"
+        },
+        {
+          "nombre": "Tour fotográfico al amanecer",
+          "descripcion": "Captura las mejores vistas con un guía fotógrafo profesional.",
+          "precio": 120,
+          "icono": "fas fa-camera"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 2100,
+      "precioEntrada": 40,
+      "ubicacion": {
+        "direccion": "Huairou District, Pekín, China",
+        "horario": {
+          "apertura": "7:30",
+          "cierre": "17:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Wei Zhang",
+          "contenido": "Impresionante obra de ingeniería. Las vistas desde Mutianyu son espectaculares.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Sophie Martin",
+          "contenido": "El tour histórico es muy completo. Recomiendo ir temprano para evitar multitudes.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "santorini",
+      "nombre": "Santorini",
+      "descripcion": "Isla griega famosa por sus impresionantes puestas de sol, casas blancas y cúpulas azules sobre el mar Egeo.",
+      "precio": 1900,
+      "tipo": "playa",
+      "imagenPrincipal": "https://www.youknowboat.com/blog/wp-content/uploads/2021/06/santorini-island-greece.webp",
+      "galeria": [
+        "https://www.greeka.com/photos/santorini/hotels/hero/santorini-hotels-1024.webp",
+        "https://media.cntraveler.com/photos/5e4e9a5b4a5c6d00085c4b0e/16:9/w_2560%2Cc_limit/Santorini_GettyImages-1054004684.jpg",
+        "https://www.santorini-view.com/wp-content/uploads/2020/04/santorini-sunset.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Oia",
+          "descripcion": "Pueblo icónico con las mejores vistas al atardecer y arquitectura cicládica.",
+          "tipo": "playa"
+        },
+        {
+          "nombre": "Caldera de Santorini",
+          "descripcion": "Formación volcánica que ofrece vistas panorámicas espectaculares.",
+          "tipo": "naturaleza"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Tour en barco por la caldera",
+          "descripcion": "Recorrido por las aguas termales y el volcán activo.",
+          "precio": 85,
+          "icono": "fas fa-ship"
+        },
+        {
+          "nombre": "Degustación de vinos locales",
+          "descripcion": "Tour por bodegas tradicionales con cata de vino Assyrtiko.",
+          "precio": 65,
+          "icono": "fas fa-wine-glass-alt"
+        },
+        {
+          "nombre": "Clase de cocina griega",
+          "descripcion": "Aprende a preparar platos típicos como moussaka y feta saganaki.",
+          "precio": 75,
+          "icono": "fas fa-utensils"
+        },
+        {
+          "nombre": "Alquiler de ATV para explorar la isla",
+          "descripcion": "Descubre rincones secretos en vehículo todo terreno.",
+          "precio": 50,
+          "icono": "fas fa-motorcycle"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 1850,
+      "precioEntrada": 0,
+      "ubicacion": {
+        "direccion": "Santorini, Cyclades, Grecia",
+        "horario": {
+          "apertura": "Todo el día",
+          "cierre": "",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Elena Papadopoulos",
+          "contenido": "Los atardeceres en Oia son mágicos. El tour en barco es imprescindible.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Thomas Müller",
+          "contenido": "La gastronomía local es exquisita. Recomiendo la clase de cocina.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.7
+        }
+      ]
+    },
+    {
+      "id": "libertad",
+      "nombre": "Estatua de la Libertad",
+      "descripcion": "Icono de Nueva York y símbolo universal de libertad, regalo de Francia a Estados Unidos en 1886.",
+      "precio": 2100,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://images.ecestaticos.com/03hm6pTH-fD_05XZvV1DSuhQqMw=/0x0:2272x1514/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff16%2Fd53%2Fdd1%2Ff16d53dd1c68a694db86a74064081b43.jpg",
+      "galeria": [
+        "https://cdn.britannica.com/82/183382-050-D832EC3A/Detail-head-crown-Statue-of-Liberty-New.jpg",
+        "https://www.nps.gov/stli/learn/historyculture/images/statue-photo-2.jpg",
+        "https://www.libertyellisfoundation.org/sites/default/files/2021-03/LEF_hero.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Corona de la estatua",
+          "descripcion": "Vistas panorámicas de Nueva York desde los 25 ventanales de la corona.",
+          "tipo": "monumento"
+        },
+        {
+          "nombre": "Museo de la Estatua de la Libertad",
+          "descripcion": "Exhibición sobre la historia y construcción de este icono.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Tour completo con acceso a la corona",
+          "descripcion": "Visita al pedestal, museo y corona con guía experto.",
+          "precio": 75,
+          "icono": "fas fa-landmark"
+        },
+        {
+          "nombre": "Paseo en ferry alrededor de la isla",
+          "descripcion": "Vistas espectaculares desde el agua.",
+          "precio": 45,
+          "icono": "fas fa-ship"
+        },
+        {
+          "nombre": "Tour histórico por Ellis Island",
+          "descripcion": "Conoce el punto de entrada de millones de inmigrantes.",
+          "precio": 60,
+          "icono": "fas fa-history"
+        },
+        {
+          "nombre": "Visita nocturna con iluminación",
+          "descripcion": "Experiencia única con la estatua iluminada.",
+          "precio": 55,
+          "icono": "fas fa-moon"
+        }
+      ],
+      "valoracion": 4.7,
+      "opiniones": 2400,
+      "precioEntrada": 25,
+      "ubicacion": {
+        "direccion": "Liberty Island, Nueva York, NY 10004, EE.UU.",
+        "horario": {
+          "apertura": "8:30",
+          "cierre": "16:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Jennifer Wilson",
+          "contenido": "Subir a la corona vale la pena por las vistas. El museo es muy interesante.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 4.9
+        },
+        {
+          "autor": "Miguel Ángel",
+          "contenido": "Recomiendo el tour combinado con Ellis Island para entender su importancia histórica.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 5
+        }
+      ]
+    },
+    {
+      "id": "angkor-wat",
+      "nombre": "Angkor Wat",
+      "descripcion": "El complejo religioso más grande del mundo, joya de la arquitectura jemer en Camboya.",
+      "precio": 2500,
+      "tipo": "historia",
+      "imagenPrincipal": "https://cdn.britannica.com/35/171035-050-8423095A/Angkor-Wat-Siemreab-Cambodia.jpg",
+      "galeria": [
+        "https://www.lonelyplanet.com/news/wp-content/uploads/2021/03/Angkor-Wat-shutterstock_1150796797.jpg",
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/4a/7e.jpg",
+        "https://www.angkorwat.org/images/angkor-wat-temple.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Templo central de Angkor Wat",
+          "descripcion": "Estructura principal con impresionantes bajorrelieves y torres.",
+          "tipo": "historia"
+        },
+        {
+          "nombre": "Ta Prohm",
+          "descripcion": "Templo famoso por los enormes árboles que crecen sobre sus ruinas.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Tour al amanecer en Angkor Wat",
+          "descripcion": "Experiencia mágica viendo salir el sol sobre los templos.",
+          "precio": 80,
+          "icono": "fas fa-sun"
+        },
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Recorrido por los principales templos con guía experto.",
+          "precio": 95,
+          "icono": "fas fa-history"
+        },
+        {
+          "nombre": "Tour fotográfico profesional",
+          "descripcion": "Aprende a capturar la mejor luz y ángulos de los templos.",
+          "precio": 120,
+          "icono": "fas fa-camera"
+        },
+        {
+          "nombre": "Paseo en globo aerostático",
+          "descripcion": "Vistas aéreas espectaculares del complejo arqueológico.",
+          "precio": 150,
+          "icono": "fas fa-hot-air-balloon"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 1750,
+      "precioEntrada": 37,
+      "ubicacion": {
+        "direccion": "Siem Reap, Camboya",
+        "horario": {
+          "apertura": "5:00",
+          "cierre": "17:30",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Sokha Chen",
+          "contenido": "El amanecer en Angkor Wat es una experiencia espiritual. Los bajorrelieves son impresionantes.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Emma Johnson",
+          "contenido": "Ta Prohm parece sacado de una película de aventuras. El guía nos explicó detalles fascinantes.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "pirineos",
+      "nombre": "Parque Nacional de los Pirineos",
+      "descripcion": "Reserva natural entre Francia y España con impresionantes paisajes montañosos, lagos y fauna salvaje.",
+      "precio": 2000,
+      "tipo": "montaña",
+      "imagenPrincipal": "https://www.rutaspirineos.org/imagenes/zonas/parc-national-des-pyrenees.jpg",
+      "galeria": [
+        "https://www.pyreneesmountains.com/wp-content/uploads/2020/03/Pyrenees-Mountains-Landscape.jpg",
+        "https://cdn.britannica.com/41/94441-050-7E9E3A1B/view-Pyrenees-Mountains-Andorra.jpg",
+        "https://www.nationalgeographic.com.es/medio/2023/06/27/parque-nacional-de-ordesa-y-monte-perdido_0e9e6e3b_230627114329_1280x720.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Circo de Gavarnie",
+          "descripcion": "Impresionante circo glaciar con una cascada de 423 metros, la más alta de Europa.",
+          "tipo": "naturaleza"
+        },
+        {
+          "nombre": "Valle de Ordesa",
+          "descripcion": "Valle glaciar con espectaculares formaciones rocosas y senderos escénicos.",
+          "tipo": "naturaleza"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Senderismo por rutas glaciares",
+          "descripcion": "Excursiones guiadas por los paisajes más espectaculares del parque.",
+          "precio": 90,
+          "icono": "fas fa-hiking"
+        },
+        {
+          "nombre": "Avistamiento de fauna pirenaica",
+          "descripcion": "Tour para observar osos, rebecos y quebrantahuesos en su hábitat natural.",
+          "precio": 75,
+          "icono": "fas fa-binoculars"
+        },
+        {
+          "nombre": "Rutas en bicicleta de montaña",
+          "descripcion": "Recorridos por los mejores senderos para MTB del parque.",
+          "precio": 65,
+          "icono": "fas fa-biking"
+        },
+        {
+          "nombre": "Tour fotográfico de paisajes",
+          "descripcion": "Captura los mejores rincones con un fotógrafo profesional.",
+          "precio": 110,
+          "icono": "fas fa-camera"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 1250,
+      "precioEntrada": 0,
+      "ubicacion": {
+        "direccion": "Pirineos, entre Francia y España",
+        "horario": {
+          "apertura": "Todo el día",
+          "cierre": "",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Pierre Dubois",
+          "contenido": "El Circo de Gavarnie es una maravilla natural. Las rutas de senderismo están muy bien señalizadas.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 4.9
+        },
+        {
+          "autor": "Laura Méndez",
+          "contenido": "Pudimos ver un oso pardo a distancia con los prismáticos. Experiencia inolvidable.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 5
+        }
+      ]
+    },
+    {
+      "id": "palacio",
+      "nombre": "Palacio Real de Madrid",
+      "descripcion": "Residencia oficial de la Familia Real Española, con más de 3,000 habitaciones y una impresionante colección de arte.",
+      "precio": 1800,
+      "tipo": "historia",
+      "imagenPrincipal": "https://znaki.fm/static/content/thumbs/1200x900/9/1c/desgdx---c4x3x50px50p--597c1d6c092c7c39502def503927d1c9.jpg",
+      "galeria": [
+        "https://www.patrimonionacional.es/sites/default/files/styles/1200x630/public/2021-01/palacio-real-de-madrid.jpg",
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6a/5a/0b.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/1f/palacio-real-de-madrid.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Salón del Trono",
+          "descripcion": "Impresionante sala con tronos reales y decoración barroca original.",
+          "tipo": "historia"
+        },
+        {
+          "nombre": "Armería Real",
+          "descripcion": "Una de las colecciones de armaduras históricas más importantes del mundo.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Recorrido por las estancias más importantes del palacio con guía experto.",
+          "precio": 60,
+          "icono": "fas fa-landmark"
+        },
+        {
+          "nombre": "Tour por los jardines de Sabatini",
+          "descripcion": "Paseo por los hermosos jardines neoclásicos del palacio.",
+          "precio": 35,
+          "icono": "fas fa-tree"
+        },
+        {
+          "nombre": "Visita nocturna especial",
+          "descripcion": "Recorrido exclusivo por las estancias reales iluminadas.",
+          "precio": 75,
+          "icono": "fas fa-moon"
+        },
+        {
+          "nombre": "Degustación de cocina real",
+          "descripcion": "Menú basado en recetas históricas de la corte española.",
+          "precio": 85,
+          "icono": "fas fa-utensils"
+        }
+      ],
+      "valoracion": 4.7,
+      "opiniones": 1950,
+      "precioEntrada": 12,
+      "ubicacion": {
+        "direccion": "Calle Bailén, s/n, 28071 Madrid, España",
+        "horario": {
+          "apertura": "10:00",
+          "cierre": "18:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Isabel Fernández",
+          "contenido": "El Salón del Trono es espectacular. La visita guiada es muy completa e interesante.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Carlos Ruiz",
+          "contenido": "La armería real superó todas mis expectativas. Colección impresionante de armaduras históricas.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.8
+        }
+      ]
+    },
+    {
+      "id": "bolonia",
+      "nombre": "Playa de Bolonia",
+      "descripcion": "Una de las playas vírgenes más espectaculares de España, famosa por sus dunas móviles y aguas cristalinas.",
+      "precio": 1200,
+      "tipo": "playa",
+      "imagenPrincipal": "https://www.8directo.com/uploads/s1/26/33/16/9/fotonoticia-20230428153200-1920.jpeg",
+      "galeria": [
+        "https://media-cdn.tripadvisor.com/media/photo-s/0e/1f/2e/0a/playa-de-bolonia.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/1f/playa-de-bolonia.jpg",
+        "https://www.andalucia.org/media/fotos/playas/playa-de-bolonia_1_fs42017.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Duna de Bolonia",
+          "descripcion": "Impresionante formación dunar de más de 30 metros de altura que cambia con el viento.",
+          "tipo": "naturaleza"
+        },
+        {
+          "nombre": "Ruinas de Baelo Claudia",
+          "descripcion": "Ciudad romana junto a la playa con impresionantes vistas al Estrecho de Gibraltar.",
+          "tipo": "historia"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Paseo en kayak por la costa",
+          "descripcion": "Explora las calas cercanas y disfruta de las vistas desde el mar.",
+          "precio": 45,
+          "icono": "fas fa-ship"
+        },
+        {
+          "nombre": "Visita a las ruinas romanas",
+          "descripcion": "Tour guiado por la antigua ciudad de Baelo Claudia.",
+          "precio": 30,
+          "icono": "fas fa-history"
+        },
+        {
+          "nombre": "Sandboard en las dunas",
+          "descripcion": "Divertido descenso en tabla por las dunas de arena.",
+          "precio": 35,
+          "icono": "fas fa-snowboarding"
+        },
+        {
+          "nombre": "Avistamiento de delfines",
+          "descripcion": "Excursión en barco para ver delfines en su hábitat natural.",
+          "precio": 55,
+          "icono": "fas fa-fish"
+        }
+      ],
+      "valoracion": 4.8,
+      "opiniones": 950,
+      "precioEntrada": 0,
+      "ubicacion": {
+        "direccion": "Playa de Bolonia, Tarifa, Cádiz, España",
+        "horario": {
+          "apertura": "Todo el día",
+          "cierre": "",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Lucía González",
+          "contenido": "Las dunas son espectaculares y el agua cristalina. Perfecta para familias.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Antonio Jiménez",
+          "contenido": "El sandboard fue muy divertido y las ruinas romanas merecen mucho la visita.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.7
+        }
+      ]
+    },
+    {
+      "id": "alhambra",
+      "nombre": "La Alhambra",
+      "descripcion": "Complejo palaciego andalusí en Granada, joya de la arquitectura nazarí y Patrimonio de la Humanidad.",
+      "precio": 1700,
+      "tipo": "historia",
+      "imagenPrincipal": "https://media.istockphoto.com/id/1350628212/es/foto/corte-de-los-leones-en-palacios-nazar%C3%ADes-del-complejo-palaciego-de-la-alhambra-granada-espa%C3%B1a.jpg?s=612x612&w=0&k=20&c=LsFHRPP8qtd8QKJTS7h3EgGBs9UDjaznnAzNTqLYVIo=",
+      "galeria": [
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/4a/7e.jpg",
+        "https://www.spain.info/.content/imagenes/cabeceras-grandes/granada/alhambra-granada-58628335-istock.jpg",
+        "https://cdn.britannica.com/85/124585-050-5B7FDB4F/Alhambra-Granada-Spain.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Palacios Nazaríes",
+          "descripcion": "Conjunto de salas y patios con exquisita decoración de yesería y azulejos.",
+          "tipo": "historia"
+        },
+        {
+          "nombre": "Jardines del Generalife",
+          "descripcion": "Hermosos jardines con fuentes y vegetación que servían como lugar de descanso de los reyes nazaríes.",
+          "tipo": "jardines"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Recorrido por palacios, alcazaba y jardines con guía experto.",
+          "precio": 70,
+          "icono": "fas fa-landmark"
+        },
+        {
+          "nombre": "Tour nocturno especial",
+          "descripcion": "Visita mágica a los palacios iluminados por la noche.",
+          "precio": 85,
+          "icono": "fas fa-moon"
+        },
+        {
+          "nombre": "Taller de arte nazarí",
+          "descripcion": "Aprende las técnicas de yesería y azulejería andalusí.",
+          "precio": 55,
+          "icono": "fas fa-paint-brush"
+        },
+        {
+          "nombre": "Degustación de té árabe",
+          "descripcion": "Experiencia sensorial con tés y dulces tradicionales.",
+          "precio": 40,
+          "icono": "fas fa-mug-hot"
+        }
+      ],
+      "valoracion": 4.9,
+      "opiniones": 2800,
+      "precioEntrada": 18,
+      "ubicacion": {
+        "direccion": "Calle Real de la Alhambra, s/n, 18009 Granada, España",
+        "horario": {
+          "apertura": "8:30",
+          "cierre": "18:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "Fatima Alami",
+          "contenido": "Los Palacios Nazaríes son una obra maestra del arte islámico. La visita guiada es imprescindible.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 5
+        },
+        {
+          "autor": "Javier López",
+          "contenido": "El Generalife es un oasis de paz. Recomiendo la visita nocturna para una experiencia diferente.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 4.9
+        }
+      ]
+    },
+    {
+      "id": "catedral-de-toledo",
+      "nombre": "Catedral Primada de Toledo",
+      "descripcion": "Uno de los mejores ejemplos del gótico español, con impresionantes vidrieras y obras de El Greco.",
+      "precio": 600,
+      "tipo": "monumento",
+      "imagenPrincipal": "https://evocarte.com/wp-content/uploads/2020/11/catedral-de-toledo.jpg",
+      "galeria": [
+        "https://www.turismocastillalamancha.es/wp-content/uploads/2020/02/catedral-de-toledo.jpg",
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/4a/7e.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f6/1f/catedral-de-toledo.jpg"
+      ],
+      "puntosInteres": [
+        {
+          "nombre": "Retablo Mayor",
+          "descripcion": "Impresionante obra de arte gótico que narra escenas de la vida de Cristo.",
+          "tipo": "arte"
+        },
+        {
+          "nombre": "Sacristía",
+          "descripcion": "Alberga importantes obras de El Greco, Caravaggio y Goya.",
+          "tipo": "arte"
+        }
+      ],
+      "actividades": [
+        {
+          "nombre": "Visita guiada completa",
+          "descripcion": "Recorrido por todas las capillas y espacios destacados de la catedral.",
+          "precio": 45,
+          "icono": "fas fa-church"
+        },
+        {
+          "nombre": "Tour de El Greco en Toledo",
+          "descripcion": "Ruta por los lugares relacionados con el pintor, incluyendo obras en la catedral.",
+          "precio": 60,
+          "icono": "fas fa-palette"
+        },
+        {
+          "nombre": "Subida a la torre",
+          "descripcion": "Vistas panorámicas de Toledo desde lo alto del campanario.",
+          "precio": 30,
+          "icono": "fas fa-tower-observation"
+        },
+        {
+          "nombre": "Concierto de órgano",
+          "descripcion": "Disfruta de la acústica única con un recital en el órgano histórico.",
+          "precio": 35,
+          "icono": "fas fa-music"
+        }
+      ],
+      "valoracion": 4.7,
+      "opiniones": 1350,
+      "precioEntrada": 10,
+      "ubicacion": {
+        "direccion": "Calle Cardenal Cisneros, 1, 45002 Toledo, España",
+        "horario": {
+          "apertura": "10:00",
+          "cierre": "18:00",
+          "dias": "Todos los días"
+        }
+      },
+      "comentarios": [
+        {
+          "autor": "María José Ruiz",
+          "contenido": "El retablo mayor es impresionante. Las explicaciones del guía fueron muy interesantes.",
+          "fecha": "Publicado el 29 de abril de 2025",
+          "valoracion": 4.8
+        },
+        {
+          "autor": "David Fernández",
+          "contenido": "Las vistas desde la torre valen la pena el esfuerzo de subir. Las obras de El Greco son magníficas.",
+          "fecha": "Publicado el 28 de abril de 2025",
+          "valoracion": 5
+        }
+      ]
+    }
+  ]
+}
+

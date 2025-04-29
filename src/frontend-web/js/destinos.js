@@ -355,3 +355,6 @@ function filterDestinations(searchTerm) {
     resultsTitle.textContent = `No hay resultados para "${searchTerm}"`;
   }
 }
+
+// Llamar la función cuando la página cargue
+document.addEventListener('DOMContentLoaded', loadAndRenderDestinations);

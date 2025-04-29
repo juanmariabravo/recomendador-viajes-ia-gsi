@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <script src="main.js"></script>
+  <script src="js/utils.js"></script>
+<script src="js/index-destinos.js"></script>
 </head>
 <body>
   <header>
@@ -31,88 +33,11 @@
       </div>
       <button class="cta-button" onclick="window.location.href='https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json'">PLANIFICA AHORA TU VIAJE</button>
     </section>
-    <section>
-      <h2 class="section-title">Destinos populares</h2>
-      <div class="destinations">
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://www.rutaspirineos.org/imagenes/zonas/parc-national-des-pyrenees.jpg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">Parque Nacional de los Pirineos</h3>
-            <p class="card-price">Precio €2000</p>
-            <span class="card-tag"><i class="fas fa-mountain"></i> Montaña</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=pirineos'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://znaki.fm/static/content/thumbs/1200x900/9/1c/desgdx---c4x3x50px50p--597c1d6c092c7c39502def503927d1c9.jpg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">Palacio Real de Madrid</h3>
-            <p class="card-price">Precio €1800</p>
-            <span class="card-tag"><i class="fas fa-city"></i> Ciudad</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=palacio'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://cdn-imgix.headout.com/mircobrands-content/image/b299bd25f75c1e299c877fed458576fa-Sagrada%20Familia%20-%20Facades.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">La Sagrada Familia</h3>
-            <p class="card-price">Precio €1500</p>
-            <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=sagrada-familia'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://www.8directo.com/uploads/s1/26/33/16/9/fotonoticia-20230428153200-1920.jpeg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">Playa de Bolonia</h3>
-            <p class="card-price">Precio €1200</p>
-            <span class="card-tag"><i class="fas fa-umbrella-beach"></i> Playa</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=bolonia'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-            <div class="card-image" style="background-image: url('https://www.alhambra-patronato.es/wp-content/uploads/2018/11/Alhambra-de-Granada..jpg'); background-size: cover; background-position: center;">
-            </div>
-          <div class="card-content">
-            <h3 class="card-title">La Alhambra</h3>
-            <p class="card-price">Precio €1700</p>
-            <span class="card-tag"><i class="fas fa-archway"></i> Historia</span>
-            <div>
-              <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=alhambra'">Ver detalles</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="destination-card">
-          <div class="card-image" style="background-image: url('https://evocarte.com/wp-content/uploads/2020/11/catedral-de-toledo.jpg'); background-size: cover; background-position: center;">
-          </div>
-        <div class="card-content">
-          <h3 class="card-title">Catedral Primada de Toledo</h3>
-          <p class="card-price">Precio €600</p>
-          <span class="card-tag"><i class="fas fa-landmark"></i> Monumento</span>
-          <div>
-            <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=alhambra'">Ver detalles</button>
-          </div>
-        </div>
+    <section class="popular-destinations">
+      <h2>Destinos Destacados</h2>
+      <div class="popular-destinations-grid">
+        <!-- Las cards se generarán dinámicamente -->
       </div>
-    </div>
-
     </section>
 
     <footer>

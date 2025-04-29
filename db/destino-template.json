@@ -1,0 +1,76 @@
+{
+  "id": "TEMPLATE",
+  "nombre": "Nombre del Destino",
+  "descripcion": "Descripción detallada del destino.",
+  "precio": 0,
+  "tipo": "",
+  "imagenPrincipal": "",
+  "galeria": [
+    "",
+    "",
+    ""
+  ],
+  "puntosInteres": [
+    {
+      "nombre": "",
+      "descripcion": "",
+      "tipo": ""
+    },
+    {
+      "nombre": "",
+      "descripcion": "",
+      "tipo": ""
+    }
+  ],
+  "actividades": [
+    {
+      "nombre": "",
+      "descripcion": "",
+      "precio": 0,
+      "icono": ""
+    },
+    {
+      "nombre": "",
+      "descripcion": "",
+      "precio": 0,
+      "icono": ""
+    },
+    {
+      "nombre": "",
+      "descripcion": "",
+      "precio": 0,
+      "icono": ""
+    },
+    {
+      "nombre": "",
+      "descripcion": "",
+      "precio": 0,
+      "icono": ""
+    }
+  ],
+  "valoracion": 0,
+  "opiniones": 0,
+  "precioEntrada": 0,
+  "ubicacion": {
+    "direccion": "",
+    "horario": {
+      "apertura": "",
+      "cierre": "",
+      "dias": ""
+    }
+  },
+  "comentarios": [
+    {
+      "autor": "",
+      "contenido": "",
+      "fecha": "",
+      "valoracion": 0
+    },
+    {
+      "autor": "",
+      "contenido": "",
+      "fecha": "",
+      "valoracion": 0
+    }
+  ]
+}

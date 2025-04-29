@@ -19,6 +19,7 @@ window.botpress.on("webchat:ready", () => {
     "clientId": "42883c3e-397b-4891-9f21-f88c10949060",
     "selector": "#webchat"
     });
+    
     // Mostrar/Ocultar Chatbot
     const chatButton = document.getElementById('chatButton');
     const chatWindow = document.getElementById('chatWindow');
