@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detalle de Destino - Sagrada Familia</title>
+  <title>Detalle de Destino - vIAjeros</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="detalle-destino.css">
   <script src="main.js"></script>
   <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+  <script src="js/detalle-destino.js"></script>
 </head>
 <body>
   <header>
@@ -29,19 +30,19 @@
   
   <main class="container">
     <section class="destination-detail">
-      
       <div class="destination-info">
         <div class="destination-header">
           <div>
-            <h1 id="destino-titulo">Sagrada Familia</h1>
-            <p class="destination-location">Barcelona, España</p>
+            <h1 id="destino-titulo">Cargando destino...</h1>
+            <p id="destino-ubicacion" class="destination-location">Cargando ubicación...</p>
             <div class="destination-rating">
-              <span>★★★★★</span> <span class="reviews-count">(1,245 opiniones)</span>
+              <span id="destino-valoracion">★★★★★</span> 
+              <span id="destino-opiniones" class="reviews-count">(0 opiniones)</span>
             </div>
           </div>
           <div class="destination-price">
             <span class="price-label">Precio:</span>
-            <span class="price-value"><strong>25 €</strong></span>
+            <span class="price-value"><strong id="destino-precio">0 €</strong></span>
           </div>
         </div>
         
@@ -55,45 +56,22 @@
         
         <div class="tab-content active" id="descripcion">
           <h2>Descripción</h2>
-          <p>La Sagrada Familia es una de las obras maestras del arquitecto Antoni Gaudí y uno de los monumentos más emblemáticos de Barcelona. Esta basílica, en construcción desde 1882, combina elementos del modernismo catalán con un diseño único que la convierte en un destino imprescindible para los visitantes de la ciudad.</p>
-          <p>Con sus impresionantes fachadas, torres y detalles arquitectónicos, la Sagrada Familia es un símbolo de creatividad y espiritualidad. Su interior está lleno de luz y colores gracias a sus vitrales, creando una atmósfera mágica.</p>
+          <div id="destino-descripcion">
+            <p>Cargando descripción...</p>
+          </div>
         </div>
         
         <div class="tab-content" id="actividades">
           <h2>Actividades</h2>
-          <div class="activities-list">
-            <div class="activity-card">
-              <div class="activity-image" style="background-color: #ddd;">
-                <i class="fas fa-church"></i>
-              </div>
-              <div class="activity-content">
-                <h3>Visita guiada</h3>
-                <p>Descubre la historia y los secretos de la Sagrada Familia con un guía experto.</p>
-              </div>
-            </div>
-            <div class="activity-card">
-              <div class="activity-image" style="background-color: #ddd;">
-                <i class="fas fa-binoculars"></i>
-              </div>
-              <div class="activity-content">
-                <h3>Subida a las torres</h3>
-                <p>Disfruta de vistas panorámicas de Barcelona desde las torres de la basílica.</p>
-              </div>
-            </div>
+          <div id="destino-actividades" class="activities-list">
+            <p>Cargando actividades...</p>
           </div>
         </div>
         
         <div class="tab-content" id="comentarios">
           <h2>Comentarios</h2>
-          <div class="reviews-container">
-            <div class="review">
-              <p><strong>María López:</strong> "Una experiencia inolvidable. La arquitectura es impresionante y las vistas desde las torres son espectaculares."</p>
-              <span class="review-date">Publicado el 10 de abril de 2025</span>
-            </div>
-            <div class="review">
-              <p><strong>Carlos García:</strong> "Un lugar mágico lleno de historia y arte. Recomiendo la visita guiada para entender todos los detalles."</p>
-              <span class="review-date">Publicado el 8 de abril de 2025</span>
-            </div>
+          <div id="destino-comentarios" class="reviews-container">
+            <p>Cargando comentarios...</p>
           </div>
           <div class="add-review">
             <h3>Deja tu comentario</h3>
@@ -106,15 +84,15 @@
         
         <div class="tab-content" id="ubicacion">
           <h2>Ubicación</h2>
-          <div class="map-container">
+          <div id="destino-ubicacion-map" class="map-container">
             <div class="map-placeholder">
               <i class="fas fa-map-marked-alt"></i>
               <span>Mapa de ubicación</span>
             </div>
           </div>
           <div class="location-details">
-            <p><strong>Dirección:</strong> Carrer de Mallorca, 401, 08013 Barcelona, España</p>
-            <p><strong>Horario:</strong> Abierto todos los días de 9:00 a 20:00</p>
+            <p><strong>Dirección:</strong> Cargando dirección...</p>
+            <p><strong>Horario:</strong> Cargando horario...</p>
           </div>
         </div>
       </div>
@@ -125,8 +103,5 @@
     <a href="privacy-terms.html">Política de Privacidad</a> | <a href="privacy-terms.html">Términos de Servicio</a>
     <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="js/destinos.js"></script>
-  <script src="js/detalle-destino.js"></script>
 </body>
 </html>
