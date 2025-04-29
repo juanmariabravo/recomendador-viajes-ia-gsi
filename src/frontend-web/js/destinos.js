@@ -28,8 +28,8 @@ async function initDestinations() {
     filteredCards = [...cards];
 
     // Verificar si hay cards
-    console.log('Número total de cards:', cards.length);
-    console.log('Número de cards filtradas inicialmente:', filteredCards.length);
+    //console.log('Número total de cards:', cards.length);
+    //console.log('Número de cards filtradas inicialmente:', filteredCards.length);
 
     // Animación de aparición de tarjetas
     cards.forEach((card, index) => {
@@ -44,6 +44,24 @@ async function initDestinations() {
       if (e.key === 'Enter') applyFilters();
     });
     applyButton.addEventListener('click', applyFilters);
+
+    // Botón para limpiar filtros
+    const clearFiltersButton = document.querySelector('.clear-filters-button');
+    clearFiltersButton.addEventListener('click', () => {
+      // Restablecer filtros
+      activeFilters.tipo = 'Todos';
+      activeFilters.presupuesto = null;
+      activeFilters.valoracion = null;
+
+      // Limpiar búsqueda
+      searchInput.value = '';
+
+      // Quitar la clase active de todos los filtros
+      filterTags.forEach(tag => tag.classList.remove('active'));
+
+      // Aplicar los filtros limpios
+      applyFilters();
+    });
 
     // Manejar clic en filtros
     filterTags.forEach(tag => {
