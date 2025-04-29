@@ -155,7 +155,49 @@ Se ha de mejorar y perfeccionar el uso del chatbot, así como las recomendacione
 
 Ahora el bot entrenado será usable desde la siguiente URL: https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json
 
-<img src="assets/chatbot_page.png" alt="Captura de pantalla de la página del chatbot" width="100%"/>
+
+```
+🗓️ Fecha: 24/04/2025
+🔹 Actividades principales realizadas:
+- Ahora cada destino permite visualizar todos sus detalles en la página de detalles-destino. Por tanto, ahora esta página tiene un uso real y no es solo una plantilla de muestra
+- Se ha creado la base de datos, en formato json, con todos los destinos turísticos que se pueden mostrar en la web.
+- Se ha conseguido que las páginas de la web lean la base de datos y muestren los destinos turísticos de manera dinámica.
+- Se han perfeccionado los filtros para que el usuario pueda buscar destinos turísticos de manera dinámica.
+- Se han perfeccionado los comentarios para que el usuario pueda comentar los destinos turísticos de manera dinámica.
+- Añadidos nuevos recursos gráficos y refactorizada la integración del chatbot
+- Se ha reemplazado el script de webchat por un iframe para mejorar carga y experiencia de usuario, solucionando el problema de integración del chatbot en un html. Ahora el chatbot se muestra en una página personalizada, que sigue la estética y los estilos de la web.
+
+🔹 Actividades secundarias realizadas:
+- Actualizados scripts y estilos del chatbot con soporte para portapapeles en preguntas ejemplo
+- Mejorada la página principal con una imagen con nuestro logo
+- Implementado gestor para comentarios y actualizado enlace del botón a detalles
+- Refactorizada página de detalles con carga dinámica y mejoras en actualización del DOM
+- Añadido botón para limpiar filtros con funcionalidad completa
+- Consolidada lógica de inicialización y mejorado manejo de filtros en destinos.js
+- Actualizados estilos CSS para tarjetas y filtros, implementada carga dinámica desde JSON
+
+🔹 Dificultades encontradas:
+- Problemas de rendimiento con la integración inicial del chatbot
+- Inconsistencias en el posicionamiento del overlay
+- Complejidad en la sincronización del estado de los filtros
+
+🔹 Soluciones aplicadas:
+- Migración a iframe para  que el chatbot cargue en cualquier navegador sin dificultades
+- Ajustes finos en los z-index y posicionamiento absoluto para el overlay
+- Implementación de un sistema centralizado de gestión de estado para los filtros
+- Optimización del código de filtrado (reducción del 30% en líneas de código)
+
+🔹 Posibles contratiempos:
+- Para aumentar la velocidad y los tiempos de respuesta, se han tomado imágenes de otros dominios públicos de la web. Si alguna dejara de existir en dichos dominios la perderíamos en nuestra web.
+
+```
+
+
+<p align="center">
+  <img src="./assets/chatbot_page.png" alt="Integración del chatbot en la página de chatbot.html, ahora funcional y compatible con cualquier navegador" width="100%"/>
+  Integración del chatbot en la página de chatbot.html, ahora funcional y compatible con cualquier navegador
+</p>
+
 
 ---
 
