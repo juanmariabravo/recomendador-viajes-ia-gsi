@@ -26,19 +26,32 @@
       </nav>
     </div>
   </header>
-  
+
   <main class="container">
-    <section class="hero" style="text-align: center;">
-      <div class="hero-image" style="background-image: url('https://imagenmiami.com/wp-content/uploads/2023/05/ChatGPT-4_Expedia_Cover.gif'); background-size: cover; background-position: center;">
+    <section class="hero" style="text-align: center; position: relative;">
+      <div class="hero-image" style="position: relative; background-image: url('https://imagenmiami.com/wp-content/uploads/2023/05/ChatGPT-4_Expedia_Cover.gif'); background-size: cover; background-position: center; height: 400px;">
+        <!-- Overlay oscuro -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.238);"></div>
+        
+        <!-- Logo superpuesto (encima del overlay) -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+          <h1 style="color: white; font-size: 7rem; font-weight: 700; text-shadow: 3px 3px 9px rgba(0,0,0,0.7);">
+            <br><span style="color: #ffffff;">vI</span><span style="color: #ffffff;">Ajeros</span>
+          </h1>
+        </div>
       </div>
-      <button class="cta-button" onclick="window.location.href='https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json'">PLANIFICA AHORA TU VIAJE</button>
+      <button class="cta-button" onclick="window.location.href='https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json'" style="position: relative; z-index: 2; margin-top: -50px;">PLANIFICA AHORA TU VIAJE CON NUESTRO CHATBOT</button>
     </section>
+
+
+    
     <section class="popular-destinations">
       <h2>Destinos Destacados</h2>
       <div class="popular-destinations-grid">
         <!-- Las cards se generarán dinámicamente -->
       </div>
     </section>
+  </main>
 
     <footer>
       <a href="privacy-terms.html">Política de Privacidad</a> | <a href="privacy-terms.html">Términos de Servicio</a>
