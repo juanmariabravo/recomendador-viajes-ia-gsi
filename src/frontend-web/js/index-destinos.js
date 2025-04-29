@@ -30,7 +30,7 @@ async function loadAndRenderPopularDestinations() {
         <p class="card-price">${formatPrice(destino.precio)}</p>
         <span class="card-tag"><i class="${getIconByType(destino.tipo)}"></i> ${destino.tipo.charAt(0).toUpperCase() + destino.tipo.slice(1)}</span>
         <div>
-          <button class="button-secondary" onclick="window.location.href='destinos.html'">Ver más</button>
+          <button class="button-secondary" onclick="window.location.href='detalle-destino.html?id=${destino.id}'">Ver detalles</button>
         </div>
       `;
       
