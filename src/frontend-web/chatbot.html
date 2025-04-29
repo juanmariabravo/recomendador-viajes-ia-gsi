@@ -8,20 +8,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="chatbot.css">
-  <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
-  <style>
-    #webchat .bpWebchat {
-      position: unset;
-      width: 100%;
-      height: 100%;
-      max-height: 100%;
-      max-width: 100%;
-    }
-
-    #webchat .bpFab {
-      display: none;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -67,8 +53,13 @@
           <p style="font-size: small;">Cuéntanos qué tipo de experiencia estás buscando y te ayudaremos a encontrar el destino perfecto</p>
         </div>
       </div>
-      <div class="chatbot-main">
-        <div id="webchat" style="width: 100%; height: 100%;"></div>
+      <div class="chatbot-main" style="min-height: 400px;">
+        <div class="chatbot-main" style="min-height: 400px;">
+          <iframe 
+            src="https://cdn.botpress.cloud/webchat/v2.4/shareable.html?configUrl=https://files.bpcontent.cloud/2025/03/18/16/20250318165501-WZ7ZXGB7.json"
+            style="width: 100%; height: 100%; border: none;"
+          ></iframe>
+        </div>
       </div>
     </section>
   </main>
@@ -76,34 +67,7 @@
   <footer>
     <a href="privacy-terms.html">Política de Privacidad</a> | <a href="privacy-terms.html">Términos de Servicio</a>
     <p style="color: black;">2025 vIAjeros. Todos los derechos reservados.</p>
+    <script src="js/chatbot.js"></script>
   </footer>
-
-  <script src="js/chatbot.js"></script>
-  <script>
-    window.botpress.on("webchat:ready", () => {
-      window.botpress.open();
-    });
-    window.botpress.init({
-      "botId": "9f472344-9c0d-40be-9fff-c3339d67a4c1",
-      "configuration": {
-        "composerPlaceholder": "¡Habla con nuestra asistente!",
-        "botName": "SofIA",
-        "botAvatar": "https://files.bpcontent.cloud/2025/04/09/11/20250409114906-QU0KFMX5.png",
-        "botDescription": "Tu asistente personal de vIAjeros",
-        "website": {},
-        "email": {},
-        "phone": {},
-        "termsOfService": {},
-        "privacyPolicy": {},
-        "color": "#3B82F6",
-        "variant": "solid",
-        "themeMode": "light",
-        "fontFamily": "inter",
-        "radius": 1
-      },
-      "clientId": "42883c3e-397b-4891-9f21-f88c10949060",
-      "selector": "#webchat"
-    });
-  </script>
 </body>
 </html>
