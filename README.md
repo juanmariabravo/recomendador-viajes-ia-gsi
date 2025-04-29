@@ -16,22 +16,29 @@
 
 ### 2. [LabBook.md](LabBook.md) o en PDF [LabBook.pdf](LabBook_Bravo.pdf)
 
+---
+
 ## 📖 **Manual de Usuario**
 
 Para utilizar el sistema recomendador de viajes y destinos turísticos con chatbot interactivo, sigue estos pasos:
 
-1. Accede a la [página principal](src/frontend-web/index.html) del sistema.
-2. Interactúa con el chatbot respondiendo a sus preguntas.
-   Actualmente, este proyecto está **en desarrollo**. Puede ver el estado actual del proyecto en el [LabBook](LabBook.md).
+1. Descargue el repositorio en formato ZIP o clone el repositorio en su máquina local
+   ```
+   git clone https://github.com/juanmariabravo/recomendador-viajes-ia-gsi.git
+   ```
+2. Navegue hasta la carpeta `/recomendador-viajes-ia-gsi/src/frontend-web/`. Puede hacerlo desde el Explorador de Archivos de Windows o de cualquier otro sistema operativo.
+3. Abra el archivo `index.html` ubicado en la carpeta `src/frontend-web/` con su navegador web favorito. Como se muestra a continuación:
 
-Si desea visualizar el aspecto de la web, siga los siguientes pasos:
+<p align="center">
+  <img src="./assets/how-to-open-html-locally.png" alt="Cómo abrir un archivo HTML localmente" width="70%">
+</p>
 
-1. Descargue el repositorio en formato ZIP o clone el repositorio en su máquina local.
-2. Abra el archivo `index.html` ubicado en la carpeta `src/frontend-web/` con su navegador web favorito. Como se muestra a continuación:
+---
 
-<img src="./assets/how-to-open-html-locally.png" alt="Cómo abrir un archivo HTML localmente" width="100%"/>
-
+Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desplegada de forma local. La página principal se verá así:
 <img src="./assets/aspecto_web_1.png" alt="Aspecto de la web" width="100%"/>
+
+---
 
 ## 📁 **Estructura de Directorios del Repositorio GitHub**
 
