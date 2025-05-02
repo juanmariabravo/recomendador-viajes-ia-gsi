@@ -610,7 +610,7 @@
       "nombre": "Playa de Toledo",
       "descripcion": "Una hermosa playa fluvial en Toledo, ideal para disfrutar del río y la naturaleza.",
       "precio": 800,
-      "tipo": "rio",
+      "tipo": "playa",
       "imagenPrincipal": "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG",
       "galeria": [
         "https://www.latribunadetoledo.es/media/IMG/2025/04ED7A12-0518-3345-F5A03851F32E3A7E.JPEG",
