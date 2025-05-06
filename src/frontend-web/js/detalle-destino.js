@@ -73,8 +73,8 @@ async function loadDestinationDetails() {
     `;
     
     // Inicializar el mapa si hay coordenadas
-    if (destino.coordenadas) {
-      initializeMap(destino.coordenadas);
+    if (destino.mapa) {
+      initializeMap(destino.mapa);
     }
 
   } catch (error) {
@@ -102,11 +102,19 @@ function getIconByType(type) {
 }
 
 // Función para inicializar el mapa
-function initializeMap(coordenadas) {
-  // Aquí iría la lógica para inicializar el mapa
-  // Por ahora solo mostramos las coordenadas
-  document.getElementById('destino-ubicacion-map').innerHTML = `
-    <p>Coordenadas: ${coordenadas.lat}, ${coordenadas.lng}</p>
+function initializeMap(mapa) {
+  const mapContainer = document.getElementById('destino-ubicacion-map');
+  if (!mapContainer) {
+    console.error('No se encontró el contenedor del mapa');
+    return;
+  }
+
+  mapContainer.innerHTML = `
+    <iframe
+      src="${mapa}"
+      width="1100" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   `;
 }
 
