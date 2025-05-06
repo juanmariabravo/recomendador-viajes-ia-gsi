@@ -71,7 +71,8 @@
           "fecha": "Publicado el 26 de abril de 2025",
           "valoracion": 4.5
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.153456789!2d-74.1465!3d11.2646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5e1f1f1f1f1f1%3A0x123456789abcdef!2sParque%20Tayrona!5e0!3m2!1ses!2sco!4v1681234567890"
     },
     {
       "id": "machu-picchu",
@@ -142,12 +143,13 @@
           "valoracion": 5
         },
         {
-          "autor": "Pedro Sánchez",
+          "autor": "Sara García",
           "contenido": "El trekking es exigente pero vale completamente la pena. Las vistas son espectaculares.",
           "fecha": "Publicado el 25 de abril de 2025",
           "valoracion": 4.8
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-72.5456!3d-13.1631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sMachu%20Picchu!5e0!3m2!1ses!2spe!4v1681234567890"
     },
     {
       "id": "coliseo",
@@ -223,7 +225,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.9
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.74546902152!2d12.4922309!3d41.890210200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseo%20de%20Roma!5e1!3m2!1ses!2ses!4v1746548864246!5m2!1ses!2ses"
     },
     {
       "id": "gran-canon",
@@ -299,7 +302,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.8
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-112.1125!3d36.1069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sGran%20Cañón!5e0!3m2!1ses!2sus!4v1681234567890"
     },
     {
       "id": "eiffel",
@@ -375,7 +379,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.8
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d2.2945!3d48.8584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sTorre%20Eiffel!5e0!3m2!1ses!2sfr!4v1681234567890"
     },
     {
       "id": "cristo-redentor",
@@ -451,7 +456,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.9
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1999.656354528315!2d-43.21165976786561!3d-22.95190715236463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x997fd59c1224b5%3A0x46dc11a125ef3914!2sCristo%20Redentor!3m2!1d-22.951742799999998!2d-43.2108802!4m5!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sParque%20Nacional%20da%20Tijuca%20-%20Alto%20da%20Boa%20Vista%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brasil!3m2!1d-22.951916!2d-43.210487199999996!5e1!3m2!1ses!2ses!4v1746552845047!5m2!1ses!2ses"
     },
     {
       "id": "sagrada-familia",
@@ -527,7 +533,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.9
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d2.1744!3d41.4036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sLa%20Sagrada%20Familia!5e0!3m2!1ses!2ses!4v1681234567890"
     },
     {
       "id": "toledo",
@@ -603,7 +610,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.8
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-4.0273!3d39.8628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sToledo%20City%20Center!5e0!3m2!1ses!2ses!4v1681234567890"
     },
     {
       "id": "playa-toledo",
@@ -679,7 +687,8 @@
           "fecha": "Publicado el 28 de abril de 2025",
           "valoracion": 4.5
         }
-      ]
+      ],
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-4.0273!3d39.8628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sPlaya%20Fluvial%20del%20Tajo%20Toledo!5e0!3m2!1ses!2ses!4v1681234567890"
     },
     {
       "id": "gran-muralla",
@@ -1352,10 +1361,6 @@
       },
       "comentarios": [
         {
-          "autor": "María José Ruiz",
-          "contenido": "El retablo mayor es impresionante. Las explicaciones del guía fueron muy interesantes.",
-          "fecha": "Publicado el 29 de abril de 2025",
-          "valoracion": 4.8
         },
         {
           "autor": "David Fernández",
