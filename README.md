@@ -13,9 +13,9 @@ Este proyecto se ha desarrollado de forma individual para la evaluación prácti
 
 #### 1. [Manual de Usuario](#-manual-de-usuario)
 
-#### 2. [Tecnologías Utilizadas](#-tecnologías-empleadas)
+#### 2. [Tecnologías Utilizadas](#%EF%B8%8F-tecnologías-empleadas)
 
-#### 3. [Estructura de Directorios del Repositorio GitHub](#-estructura-de-directorios-del-repositorio-github)
+#### 3. [Estructura de Directorios del Repositorio GitHub](#-estructura-de-directorios-del-proyecto)
 
 #### 4. [Base de Datos](#-base-de-datos)
 
