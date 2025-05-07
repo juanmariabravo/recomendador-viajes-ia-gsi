@@ -78,11 +78,11 @@ Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desp
 
 ```
 /recomendador-viajes-ia-gsi/
-    .gitignore
-    LabBook.md
-    LabBook_Bravo.pdf
-    README.md
-|
+│   .gitignore
+│   LabBook.md
+│   LabBook_Bravo.pdf
+│   README.md
+│
 +---assets
 |       *.png // Imágenes Utilizadas en la Web y en la documentación
 |
@@ -126,10 +126,15 @@ Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desp
 
 - **`docs/`**: Documentación del proyecto, incluyendo la definición del proyecto, planificación, requisitos, referencias y otros detalles relevantes.
 - **`design/`**: Lugar para bocetos y prototipos UI/UX, así como ideas para el diseño de la interfaz.
-- **`src/`**: Será el espacio para el código fuente del frontend y, en caso necesario, del backend.
-- **`db/`**: Contendrá la base de datos para las recomendaciones de destinos turísticos.
-- **`assets/`**: Contendrá los recursos estáticos del proyecto, como imágenes, iconos, etc.
-- **`README.md`**: Documento principal para describir el proyecto, su objetivo y cómo configurarlo.
+- **`src/frontend-web`**: Contiene el código fuente del frontend:
+  - **HTML**: Archivos principales de las páginas web (`index.html`, `detalle-destino.html`, etc.).
+  - **CSS**: Estilos específicos para cada página y estilos generales.
+  - **JavaScript**: Funcionalidades específicas para el chatbot, manejo de comentarios, lectura de destinos, y otras utilidades.
+- **`db/`**: Contiene la base de datos de los destinos turísticos:
+  - `destino-template.json`: Plantilla para añadir nuevos destinos.
+  - `destinos.json`: Archivo principal con la información de los destinos turísticos.
+- **`assets/`**: Contiene recursos estáticos del proyecto, como imágenes, iconos, etc.
+- **`README.md`**: Documento principal que describe el proyecto, su objetivo y cómo configurarlo.
 - **`LabBook.md`**: Registro del progreso y posibles problemas encontrados durante el desarrollo.
 - **`LabBook_Bravo.pdf`**: Versión PDF del registro del progreso y posibles problemas encontrados durante el desarrollo.
 - **`LabBook_GSI_Proyecto.docx`**: Versión Word del registro del progreso y posibles problemas encontrados durante el desarrollo.
