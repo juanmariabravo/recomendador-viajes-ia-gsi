@@ -1,22 +1,29 @@
+[![Demo en Vivo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://juanmariabravo.github.io/recomendador-viajes-ia-gsi/)
 # Sistema Recomendador de Viajes y Destinos Turísticos con Chatbot Interactivo
 
-- Grupo de trabajo: Bravo (Juan María Bravo López)
+- Todo el proyecto ha sido elaborado por [Juan María Bravo López](https://github.com/juanmariabravo)
 - Fecha de inicio del proyecto: 24/02/2025
-- Gestión de Sistemas de Información (GSI) - Escuela Superior de Informática - Universidad de Castilla-La Mancha
+- Fecha de fin del proyecto y presentación: 07/05/2025
+- Institución: Escuela Superior de Informática - Universidad de Castilla-La Mancha
+- Asignatura: Gestión de Sistemas de Información (GSI)
+
+Este proyecto se ha desarrollado de forma individual para la evaluación práctica de la asignatura de Gestión de Sistemas de Información, cursada en el tercer año de Ingeniería Informática de la Escuela Superior de Informática de Ciudad Real (Universidad de Castilla-La Mancha), durante el curso 2024/2025.
 
 ## Índice
 
-### 1. [Manual de Usuario](#-manual-de-usuario)
+#### 1. [Manual de Usuario](#-manual-de-usuario)
 
-### 2. [Estructura de Directorios del Repositorio GitHub](#-estructura-de-directorios-del-repositorio-github)
+#### 2. [Tecnologías Utilizadas](#-tecnologías-empleadas)
 
-### 3. [Base de Datos](#-base-de-datos)
+#### 3. [Estructura de Directorios del Repositorio GitHub](#-estructura-de-directorios-del-repositorio-github)
+
+#### 4. [Base de Datos](#-base-de-datos)
 
 ## Otros Contenidos de Interés
 
-### 1. [Definición del Proyecto](docs/definicion_proyecto.md)
+#### 1. [Definición del Proyecto](docs/definicion_proyecto.md)
 
-### 2. [LabBook.md](LabBook.md) o en PDF [LabBook.pdf](LabBook_Bravo.pdf)
+#### 2. [LabBook.md](LabBook.md) o en PDF [LabBook.pdf](LabBook_Bravo.pdf)
 
 ---
 
@@ -28,15 +35,20 @@ Para utilizar el sistema recomendador de viajes y destinos turísticos con chatb
    ```
    git clone https://github.com/juanmariabravo/recomendador-viajes-ia-gsi.git
    ```
-2. Navegue hasta la carpeta `/recomendador-viajes-ia-gsi/src/frontend-web/`. Puede hacerlo desde el Explorador de Archivos de Windows o de cualquier otro sistema operativo.
-3. Abra el archivo `index.html` ubicado en la carpeta `src/frontend-web/` con su navegador web favorito. Como se muestra a continuación:
+2. Navegue hasta la carpeta `/recomendador-viajes-ia-gsi/src/frontend-web/`. Puede hacerlo desde la terminal o desde el Explorador de Archivos de Windows o de cualquier otro sistema operativo.
+   ```
+   cd recomendador-viajes-ia-gsi/src/frontend-web/
+   ````
+4. Abra el archivo `index.html` ubicado en la carpeta `src/frontend-web/` con su navegador web favorito. Como se muestra a continuación:
 
 <p align="center">
   <img src="./assets/how-to-open-html-locally.png" alt="Cómo abrir un archivo HTML localmente" width="70%">
 </p>
 
 ---
-Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desplegada de forma local. La página principal se verá así:
+> También puede desplegarse en local con la extensión de [Live Server en VS Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desplegada de forma local. Las ventanas principales, en escritorio, se verán así:
 
 <table>
   <tr>
@@ -52,6 +64,15 @@ Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desp
 <img src="./assets/chatbot_page.png" alt="Página del chatbot" width="100%"/>
 
 ---
+## ⌨️ **Tecnologías Empleadas**
+| Componente | Tecnología |
+| --- | --- |
+| Frontend Web |	HTML5, CSS3, JavaScript (ES6+) |
+| Backend Web |  JavaScript (ES6+) |
+| Base de Datos | Archivo JSON |
+| Chatbot de la web | [Botpress](https://app.botpress.cloud/) |
+| Control de Versiones | Git/GitHub |
+| Transparencias para la presentación | [Gamma.app](https://gamma.app/) y Power Point |
 
 ## 📁 **Estructura de Directorios del Proyecto**
 
