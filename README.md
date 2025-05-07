@@ -99,6 +99,9 @@ Desde ahí podrá utilizar con normalidad el chatbot y toda la página web, desp
 |       LabBook_GSI_Proyecto.docx // LabBook del proyecto
 |       PromptInicialOculto.txt // Prompt inicial oculto para el bot
 |
++---presentacion
+|       Bravo_recomendador-viajes-ia-gsi_PRESENTACION.pdf // Transparencias de la presentación en .pdf
+|       vIAjeros.pptx // Presentación en Power Point
 \---src
     \---frontend-web
         |   chatbot.css // Estilos del chatbot
